@@ -33,7 +33,6 @@ ES,nuevo,P.NUEVO 3,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0
 ES,pbcn,PBCN1|PBCN2,,found 0 possibly matching ETS records,gas,0.0,907062.6999999994,0.0,0.0,0.0,0.0
 ES,pvent,PVENT1,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
 ES,roque,S.ROQUE 1|S.ROQUE 2,CCC.- San Roque 1,emission factor seems implausible,gas,0.0,833195.1000000007,0.0,0.0,148499.0,178.2283645211066
-FI,Manual Match #116,Naantali B4|Naantali B1|Naantali B2|Naantali B3,Naantalin voimalaitos,emission factor seems implausible,coal,0.0,864758.5000000123,1653541.249436077,170524.45975230858,203839.54024769142,235.71845809863507
 FI,Manual Match #120,Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,emission factor seems implausible,gas,0.0,173822.96000000573,2305758.1372621423,111432.79977924378,19201.20022075622,110.46411947394974
 FI,aanekoski,Äänekoski G1,,found 0 possibly matching ETS records,other,0.0,1459288.2899999984,0.0,0.0,0.0,0.0
 FI,alholmens,Alholmens B2,,found 0 possibly matching ETS records,other,0.0,891688.6300000004,0.0,0.0,0.0,0.0
@@ -76,7 +75,6 @@ IT,tnrsdlmnsp,UP_TNRSDLMNSP_1,,found 0 possibly matching ETS records,gas,0.0,659
 IT,trapani,UP_TRAPANI_C_1|UP_TRAPANI_C_2,,found 0 possibly matching ETS records,gas,0.0,15064.0,0.0,0.0,0.0,0.0
 LT,,VE3 TG-1|VE3 TG-2,,seems to be a meaningless generation unit name,,0.0,0.0,0.0,0.0,0.0,0.0
 LT,kte,KTE,,found 0 possibly matching ETS records,gas,0.0,673.0,0.0,0.0,0.0,0.0
-NL,Manual Match #207,Amer 9,Amercentrale,emission factor seems implausible,coal,0.0,3842168.219999932,951925.8402601238,95662.24168095674,882542.7583190433,229.69914584298417
 NL,Manual Match #209,Delesto 2,,filtered in manual_matches.csv: seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.',gas,0.0,198947.94,0.0,0.0,0.0,0.0
 NL,Manual Match #214,Elsta 1,Dow Benelux B.V. BKG 10,0 emissions,gas,0.0,1372641.1099999985,0.0,0.0,0.0,0.0
 NL,bergum,Bergum 10|Bergum 20,ENGIE Centrale Bergum,0 generation,,0.0,0.0,0.0,0.0,0.0,0.0
@@ -99,7 +97,6 @@ PL,turow,Turów B01|Turów B02|Turów B03|Turów B04|Turów B05|Turów B06|Turó
 RO,cetbrazi,CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,found 0 possibly matching ETS records,gas,0.0,118176.26999999954,0.0,0.0,0.0,0.0
 RO,cetcraiova,CetCraiova2_CRAI1_CA|CetCraiova2_CRAI2_CA,,found 0 possibly matching ETS records,lignite,0.0,675281.3000000027,0.0,0.0,0.0,0.0
 RO,cetgalati,CetGalati_GALA5_CA|CetGalati_GALA3_CA,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
-SE,Manual Match #253,Rya KVV,Rya Kraftvärmeverk,emission factor seems implausible,gas,0.0,118353.98000000216,173634.26963745806,22460.45581275146,34993.54418724854,295.6685038158235
 SE,halmstad,Gasturbiner Halmstad G12,,found 0 possibly matching ETS records,oil,0.0,2132.13,0.0,0.0,0.0,0.0
 SE,uppsala,Uppsala KVV,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
 SE,vartaverket,KVV1 Värtaverket|KVV8 Värtaverket,Värtaverket,uses mixed fuels,,0.0,594130.800000002,0.0,0.0,0.0,0.0

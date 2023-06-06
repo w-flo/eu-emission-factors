@@ -29,7 +29,6 @@ ES,narcea,NARCEA 2|NARCEA 3,Central Térmica Narcea,0 generation,,0.0,0.0,0.0,0.
 ES,nuevo,P.NUEVO 3,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
 ES,pbcn,PBCN1|PBCN2,,found 0 possibly matching ETS records,gas,0.0,45316.499999999985,0.0,0.0,0.0,0.0
 ES,pvent,PVENT1,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
-FI,Manual Match #118,Naantali B4|Naantali B1|Naantali B2|Naantali B3,Naantalin voimalaitos,emission factor seems implausible,coal,0.0,882540.1500000077,1846907.5189683833,184367.54791885742,201370.45208114258,228.17143455868927
 FI,aanekoski,Äänekoski G1,,found 0 possibly matching ETS records,other,0.0,1304175.7699999989,0.0,0.0,0.0,0.0
 FI,alholmens,Alholmens B2,,found 0 possibly matching ETS records,other,0.0,664182.2299999994,0.0,0.0,0.0,0.0
 FI,haapavesi,Haapavesi B1,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
@@ -66,7 +65,6 @@ IT,tnrsdlmnsp,UP_TNRSDLMNSP_1,,found 0 possibly matching ETS records,gas,0.0,171
 IT,trapani,UP_TRAPANI_C_1|UP_TRAPANI_C_2,,found 0 possibly matching ETS records,gas,0.0,162624.0,0.0,0.0,0.0,0.0
 LT,,VE3 TG-1|VE3 TG-2,,seems to be a meaningless generation unit name,,0.0,0.0,0.0,0.0,0.0,0.0
 LT,kte,KTE,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
-NL,Manual Match #209,Amer 9,Amercentrale,emission factor seems implausible,coal,0.0,3812743.55999994,1081605.9023964028,60306.043776182465,485904.95622381754,127.4423387194247
 NL,Manual Match #211,Delesto 2,,filtered in manual_matches.csv: seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.',gas,0.0,308314.7999999997,0.0,0.0,0.0,0.0
 NL,Manual Match #216,Elsta 1,Dow Benelux B.V. BKG 10,0 emissions,gas,0.0,1251619.1400000004,0.0,0.0,0.0,0.0
 NL,bergum,Bergum 10|Bergum 20,ENGIE Centrale Bergum,0 generation,,0.0,0.0,0.0,0.0,0.0,0.0

@@ -115,7 +115,7 @@ UFARRU1|UFARRU2,"ContourGlobal La Rioja, S.L",,
 ,,,
 ,,,FI
 Forssa GT1|Forssa GT2,Forssan varavoimalaitos,,
-Naantali B4|Naantali B1|Naantali B2|Naantali B3,Naantalin voimalaitos,,"not actually a coal power plant since 2017"
+Naantali B4|Naantali B1|Naantali B2|Naantali B3,Naantalin voimalaitos,plausible-emission-factor-range:100-1500,"B4 is not actually a coal power plant since 2017, it's biomass now"
 Salmisaari SaB,Salmisaaren voimalaitos,,
 Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,,
 Vaskiluoto B2,Vaskiluoto 2 -voimalaitos,,
@@ -206,7 +206,7 @@ LE TG-7|LE TG-8|LE TG-9,Lietuvos elektrinė,,
 "Block-1, Gas Turbine, RTEC2|Block-1, Steam Turbine, RTEC2|Block-2, Gas Turbine, RTEC2|Block-2, Steam Turbine, RTEC2",id:LV-RIT-R-II-SEG-07:7,,
 ,,,
 ,,,NL
-Amer 9,Amercentrale,,
+Amer 9,Amercentrale,plausible-emission-factor-range:100-1500,"uses lots of biomass"
 Claus C,Energie Productie Clauscentrale,,
 Delesto 2,,,seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.'
 Diemen 33|Diemen 34,Vattenfall Centrale Diemen,,
