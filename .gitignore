@@ -1,0 +1,6 @@
+/target
+
+# These files might not be redistributable under a free license
+/data/**/preprocessed/*.csv
+*.zip
+*.xlsx

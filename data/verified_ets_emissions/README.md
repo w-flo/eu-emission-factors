@@ -1,0 +1,1 @@
+This directory should contain the most recently released ETS "verified emissions" xlsx file. It needs to be renamed to "verified_emissions.xlsx", and can be downloaded from [EU ETS](https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets/union-registry_en), in "Documentation -> Phase [I-IV] -> Reports -> Verified Emissions for [year]".

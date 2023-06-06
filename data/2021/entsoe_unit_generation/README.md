@@ -1,0 +1,1 @@
+This directory should contain 12 zip files "2021_[month]_ActualGenerationOutputPerGenerationUnit_16.1.A.zip" from Entso-E. These can be downloaded from Entso-E sftp server after registration, from the server's "zip" directory.
