@@ -49,6 +49,7 @@ fn main() {
 struct ManualMatch {
     generation: String,
     emission: String,
+    settings: String,
     comment: String,
 }
 
@@ -99,7 +100,7 @@ fn load_manual_matches(out: &mut Vec<Match>, paths: &FilePaths) {
 
     for (index, manual_match) in manual_matches.into_iter().enumerate() {
         if manual_match.emission.is_empty() && manual_match.generation.is_empty() {
-            // so a CSV comment line can be inserted like ",,DE"
+            // so a CSV comment line can be inserted like ",,,DE"
             continue;
         }
 
@@ -130,6 +131,22 @@ fn load_manual_matches(out: &mut Vec<Match>, paths: &FilePaths) {
 
         if manual_match.emission.is_empty() {
             m.ignore(format!("filtered in manual_matches.csv: {}", manual_match.comment));
+        }
+
+        for (key, val) in manual_match
+            .settings
+            .split_terminator('|')
+            .map(|s| s.split_once(':').unwrap_or_else(|| panic!("bad setting {s}")))
+        {
+            match key {
+                "plausible-emission-factor-range" => {
+                    let (min_s, max_s) = val.split_once('-').expect("bad emission factor range");
+                    let min = min_s.parse().expect("bad minimum plausible emission factor");
+                    let max = max_s.parse().expect("bad maximum plausible emission factor");
+                    m.plausible_emission_factor = min..max;
+                }
+                _ => panic!("invalid setting {key}:{val}"),
+            }
         }
 
         out.push(m);
@@ -325,7 +342,7 @@ fn calculate_emission_factors(year: u32, matches: &mut [Match], paths: &FilePath
         m.emissions_el = emission_sum - m.emissions_heat;
         m.emission_factor = (m.emissions_el * 1000.0) / m.generation_el;
 
-        if m.emission_factor > 3000.0 || m.emission_factor < 300.0 {
+        if !m.plausible_emission_factor.contains(&m.emission_factor) {
             m.ignore("emission factor seems implausible".to_string());
         }
     }

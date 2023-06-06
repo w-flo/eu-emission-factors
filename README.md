@@ -65,19 +65,28 @@ The file can be used to manually map electricity generation data to emission
 data. The file should look like this, with each line defining one match:
 
 ```
-generation,emission,comment
-Irsching 4,Kraftwerk Irsching Block 4,
-GKM AG DBEnergie|GKM AG TNG|GKM AG Amprion,Grosskraftwerk Mannheim,
-,,This is a general comment
-IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,"only combined refinery + power plant ETS data is available"
-eic:11WD2HANN5C---1X|eic:11WD2HANN5C---2V,GKH - Gemeinschaftskraftwerk Hannover GmbH,
-Plock B01,id:PL-0391-05:455,
+generation,emission,settings,comment
+Irsching 4,Kraftwerk Irsching Block 4,,
+GKM AG DBEnergie|GKM AG TNG|GKM AG Amprion,Grosskraftwerk Mannheim,,
+,,,This is a general comment
+IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,,"only combined refinery + power plant ETS data is available"
+eic:11WD2HANN5C---1X|eic:11WD2HANN5C---2V,GKH - Gemeinschaftskraftwerk Hannover GmbH,,
+Plock B01,id:PL-0391-05:455,,
+Rya KVV,Rya Kraftvärmeverk,plausible-emission-factor-range:200-600,"uses some biomass"
 ```
 
 The `generation` field lists one or more generation unit names from the
 "data/[year]/preprocessed/powerplant_generation.csv" file, separated by "|". The
 `emission` field lists zero or more ETS data installation names from the
 "data/[year]/preprocessed/powerplant_emissions.csv" file, also separated by "|".
+
+The `settings` field may contain some settings to override default behavior,
+separated by "|". Currently supported:
+
+- `plausible-emssions-factor-range:[min]-[max]`. Default is `300-3000`. If the
+  emission factor calculation result for this plant is outside of the given
+  range, the plant is ignored during country-level data aggregation.
+
 The optional `comment` field may contain some text to explain the line. If the
 `generation` and `emission` fields are empty, the line is ignored – so that's a
 way to add general comments to the file.
@@ -96,6 +105,8 @@ like "ELEKTROCIEPŁOWNIA" for the Plock power plant (and other power plants in
 Poland) should be specified as "id:[permit_id]:[installation_id]". The value to
 append after "eic:" or "id:" is listed in the "powerplant_generation.csv" and
 "powerplant_emissions.csv" files, respectively.
+
+### How to find a manual match
 
 Some matches are difficult to figure out, but this process usually works:
 Geocoordinates of generation units can be found based on their name and/or EIC

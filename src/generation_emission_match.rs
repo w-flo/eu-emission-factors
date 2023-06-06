@@ -1,4 +1,4 @@
-use std::collections::BTreeMap;
+use std::{collections::BTreeMap, ops::Range};
 
 use serde::Serialize;
 
@@ -40,6 +40,9 @@ pub(crate) struct Match {
     pub(crate) emissions_heat: f64,
     pub(crate) emissions_el: f64,
     pub(crate) emission_factor: f64,
+
+    #[serde(skip)]
+    pub(crate) plausible_emission_factor: Range<f64>,
 }
 
 impl Match {
@@ -76,6 +79,7 @@ impl Match {
             fuel,
             sigma,
             generation_el: output_sum,
+            plausible_emission_factor: 300.0..3000.0,
             ..Default::default()
         }
     }
