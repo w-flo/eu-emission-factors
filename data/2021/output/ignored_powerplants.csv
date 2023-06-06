@@ -67,7 +67,7 @@ IT,trapani,UP_TRAPANI_C_1|UP_TRAPANI_C_2,,found 0 possibly matching ETS records,
 LT,,VE3 TG-1|VE3 TG-2,,seems to be a meaningless generation unit name,,0.0,0.0,0.0,0.0,0.0,0.0
 LT,kte,KTE,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
 NL,Manual Match #209,Amer 9,Amercentrale,emission factor seems implausible,coal,0.0,3812743.55999994,1081605.9023964028,60306.043776182465,485904.95622381754,127.4423387194247
-NL,Manual Match #211,Delesto 2,,filtered in manual_matches.csv: seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.'.,gas,0.0,308314.7999999997,0.0,0.0,0.0,0.0
+NL,Manual Match #211,Delesto 2,,filtered in manual_matches.csv: seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.',gas,0.0,308314.7999999997,0.0,0.0,0.0,0.0
 NL,Manual Match #216,Elsta 1,Dow Benelux B.V. BKG 10,0 emissions,gas,0.0,1251619.1400000004,0.0,0.0,0.0,0.0
 NL,bergum,Bergum 10|Bergum 20,ENGIE Centrale Bergum,0 generation,,0.0,0.0,0.0,0.0,0.0,0.0
 NL,edh,EDH,,found 0 possibly matching ETS records,gas,0.0,335180.7600000019,0.0,0.0,0.0,0.0
