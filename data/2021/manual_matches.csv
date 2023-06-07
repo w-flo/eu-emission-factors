@@ -21,6 +21,7 @@ Zelzate 2 Knippegroen,Electrabel - Knippegroen,,"burns blast furnace gas, not na
 TPP_GALABOVO_G1|TPP_GALABOVO_G2,TPP AES-3C Maritza East 1,,
 TPP_MI2_G1|TPP_MI2_G2|TPP_MI2_G3|TPP_MI2_G4|TPP_MI2_G5|TPP_MI2_G6|TPP_MI2_G7|TPP_MI2_G8,TPP MARITSA EAST 2 EAD,,
 TPP_MI3_G1|TPP_MI3_G2|TPP_MI3_G3|TPP_MI3_G4|TPP_MARITSA_3_G1,TEC ContourGlobal Maritsa East 3,,
+TPP_RUSE_G4,,,"probably missing some <100MW generation units, ETS name is 'Toplofikatsia RuseAD TEC Ruse Iztok'."
 ,,,
 ,,,CZ
 ECHV_G1____|ECHV_G2____|ECHV_G3____|ECHV_G4____,Elektrárna Chvaletice,,
@@ -83,6 +84,9 @@ VOELKLINGEN_MKV,Modellkraftwerk Völklingen,,
 Westfalen E,Kraftwerk Westfalen D&E,,
 Wilhelmshaven,Kraftwerk Wilhelmshaven,,
 ,,,
+,,,DK
+Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,,
+,,,
 ,,,ES
 ACECA 3,Iberdrola Generación T. -C.C.Aceca grupo 3,,
 ALG3TG1|ALG3TG2|ALG3TV1,C.T. de Ciclo Combinado Bahía de Algeciras,,
@@ -110,14 +114,16 @@ SBO3,CCC Sabón,,
 SOTO 5,C.T. Ciclo Combinado de Soto de Ribera 5,,
 SOTO RIB 3,"Central Térmica de Soto de Ribera 1, 2 y 3",,
 SRI4,Central Térmica de Ciclo combinado Soto de Ribera4,,
+S.ROQUE 2,"Endesa Ciclos Combinados, S.L. - San Roque 2",,
 TAPOWER,"Tarragona Power, S.L. – CCC Tarragona Power",,
 UFARRU1|UFARRU2,"ContourGlobal La Rioja, S.L",,
 ,,,
 ,,,FI
 Forssa GT1|Forssa GT2,Forssan varavoimalaitos,,
+Meri-Pori B1,Meri-Porin voimalaitos,,
 Naantali B4|Naantali B1|Naantali B2|Naantali B3,Naantalin voimalaitos,plausible-emission-factor-range:100-1500,"B4 is not actually a coal power plant since 2017, it's biomass now"
 Salmisaari SaB,Salmisaaren voimalaitos,,
-Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,,
+Suomenoja 2 GT,,,"missing two <100MW generation units"
 Vaskiluoto B2,Vaskiluoto 2 -voimalaitos,,
 Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,,
 ,,,
@@ -171,6 +177,7 @@ UP_CNTRLDTVRL_1,Centrale di Teverola,,
 UP_CTE_DEL_M_2,CENTRALE TERMOELETTRICA DI PONTI SUL MINCIO,,
 UP_CTNUCENORD_2|UP_CTNUCENORD_3,id:IT-A-826:562,,"NuCe Nord, Priolo Gargallo, by ERG S.P.A."
 UP_FIUMESANT_3|UP_FIUMESANT_4,Centrale termoelettrica di fiumesanto,,
+UP_ISABENERGY_2|UP_ISABENERGY_3,id:IT-A-825:561,,uses syngas -> may lead to higher emissions
 UP_LA_CASELL_1|UP_LA_CASELL_2|UP_LA_CASELL_3|UP_LA_CASELL_4,CENTRALE TERMOELETTRICA DI LA CASELLA,,
 UP_LEVANTE_3|UP_LEVANTE_4,MARGHERA LEVANTE,,
 UP_MONCALIERI_3|UP_MONCALRPW_2,Centrale Termoelettrica di Moncalieri,,

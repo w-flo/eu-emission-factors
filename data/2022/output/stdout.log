@@ -17,6 +17,9 @@ Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "ES", name: "BESOS 4", eic: "18WBES4-12345-CY", fuel: "gas", output: 1715330.3999999964 }]
 - [YearlyEmission { country: "ES", name: "CCC - Besos", id: "ES080801000516:432", emissions: 648316.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "ES", name: "S.ROQUE 1", eic: "18WSROQ1-1234-CJ", fuel: "gas", output: 357563.4000000004 }]
+- [YearlyEmission { country: "ES", name: "CCC.- San Roque 1", id: "ES011101000050:48", emissions: 148499.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "FI", name: "Vaskiluoto B3", eic: "44W-T-LV-1000078", fuel: "oil", output: 0.0 }]
 - [YearlyEmission { country: "FI", name: "Vaskiluoto 3-voimalaitos", id: "FI-60831104:4", emissions: 0.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
