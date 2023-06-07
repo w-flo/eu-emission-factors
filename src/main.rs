@@ -244,11 +244,11 @@ fn get_key(name: &str) -> String {
 
 fn filter_matches(matches: &mut Vec<Match>) {
     matches.retain_mut(|m| {
-        if m.is_ignored() {
-            // Ignore already filtered matches
-        } else if m.fuel.as_deref() == Some("other") {
+        if m.fuel.as_deref() == Some("other") {
             // Remove match silently: not interesting for coal/oil/gas emission factors
             return false;
+        } else if m.is_ignored() {
+            // Ignore already filtered matches
         } else if m.generation_el == 0.0 {
             m.ignore("0 generation".to_string());
         } else if m.fuel.is_none() {

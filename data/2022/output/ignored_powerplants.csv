@@ -18,15 +18,10 @@ DE,Manual Match #62,HKW West Block 4,,"filtered in manual_matches.csv: HKW West,
 DE,Manual Match #63,IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,filtered in manual_matches.csv: only combined refinery + power plant ETS data is available,oil,0.0,1373945.0,0.0,0.0,0.0,0.0
 DE,Manual Match #67,Kraftwerk Wahlheim GT D,Kraftwerk Walheim,emission factor seems implausible,oil,0.0,30978.03000000001,0.0,0.0,144413.0,4661.787725042553
 DE,Manual Match #79,Sued GuD1 GT2|Sued GuD1 GT3|Sued GuD2 DT60|Sued GuD2 GT61|Sued GuD2 GT62,Heizkraftwerk Süd GuD,emission factor seems implausible,gas,0.0,1062326.9600000042,1802123.9262275395,215598.40769241046,290496.59230758954,273.45309235829654
-DE,ruhrort,RUHRORT-4,,found 0 possibly matching ETS records,other,0.0,687979.25,0.0,0.0,0.0,0.0
-DE,stuttgart,Stuttgart-Münster DT,Heizkraftwerk Stuttgart-Gaisburg 3|Kraftwerk Stuttgart-Gaisburg|Kraftwerk Stuttgart-Münster,found 3 possibly matching ETS records,other,0.07275888150554873,219577.82999999615,0.0,0.0,0.0,0.0
 DE,tiefstack,HKW Tiefstack Block 2|HKW Tiefstack GuD,Heizkraftwerk Tiefstack,uses mixed fuels,,0.0,1160192.5,0.0,0.0,0.0,0.0
 DK,Manual Match #118,Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,emission factor seems implausible,gas,0.0,186768.78999999957,326664.4513989718,38387.04652449829,50165.95347550171,268.59923157130174
 DK,asnaesvaerket,Asnaesvaerket 2|Asnaesvaerket 5,Asnæsværket,0 generation,,0.5086467705485999,0.0,0.0,0.0,0.0,0.0
-DK,avedoerevaerket,Avedoerevaerket 1|Avedoerevaerket 2,,found 0 possibly matching ETS records,other,0.0,2215902.8900000006,0.0,0.0,0.0,0.0
 DK,studstrupvaerket,Studstrupvaerket 3|Studstrupvaerket 4,"DONG Energy Generation A/S, Studstrupværket",uses mixed fuels,,0.0,1829458.6000000308,0.0,0.0,0.0,0.0
-EE,auvere,Auvere EJ- G1,,found 0 possibly matching ETS records,other,0.0,1117538.3000000175,0.0,0.0,0.0,0.0
-EE,elektrijaam,Balti Elektrijaam -TG9|Balti Elektrijaam -TG10|Balti Elektrijaam -TG11|Balti Elektrijaam -TG12|Eesti Elektrijaam- TG1|Eesti Elektrijaam- TG2|Eesti Elektrijaam- TG3|Eesti Elektrijaam- TG4|Eesti Elektrijaam- TG5|Eesti Elektrijaam- TG6|Eesti Elektrijaam- TG7|Eesti Elektrijaam- TG8,Auvere Elektrijaam|Balti Elektrijaam|Eesti Elektrijaam|Iru Elektrijaam|Paide Elektrijaam|Pärnu Elektrijaam|Tallinna elektrijaam,found 7 possibly matching ETS records,other,0.6478649665366591,3898212.2000000025,0.0,0.0,0.0,0.0
 ES,Manual Match #103,PdV2,"Alpig Energia España, S.A.U.",emission factor seems implausible,gas,0.0,1712578.5000000063,0.0,0.0,422306.0,246.59074022008244
 ES,colon,COLON 4,,found 0 possibly matching ETS records,gas,0.0,921029.8999999986,0.0,0.0,0.0,0.0
 ES,nuevo,P.NUEVO 3,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
@@ -34,23 +29,17 @@ ES,pbcn,PBCN1|PBCN2,,found 0 possibly matching ETS records,gas,0.0,907062.699999
 ES,pvent,PVENT1,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
 ES,roque,S.ROQUE 1|S.ROQUE 2,CCC.- San Roque 1,emission factor seems implausible,gas,0.0,833195.1000000007,0.0,0.0,148499.0,178.2283645211066
 FI,Manual Match #120,Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,emission factor seems implausible,gas,0.0,173822.96000000573,2305758.1372621423,111432.79977924378,19201.20022075622,110.46411947394974
-FI,aanekoski,Äänekoski G1,,found 0 possibly matching ETS records,other,0.0,1459288.2899999984,0.0,0.0,0.0,0.0
-FI,alholmens,Alholmens B2,,found 0 possibly matching ETS records,other,0.0,891688.6300000004,0.0,0.0,0.0,0.0
 FI,haapavesi,Haapavesi B1,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
-FI,keljonlahti,Keljonlahti B1,,found 0 possibly matching ETS records,other,0.0,657112.4199999949,0.0,0.0,0.0,0.0
 FI,kristiina,Kristiina B1|Kristiina B2,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
 FI,kymijarvi,Kymijärvi B1,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
 FI,pori,Meri-Pori B1,,found 0 possibly matching ETS records,coal,0.0,366515.7699999966,0.0,0.0,0.0,0.0
-FI,raahen,Raahen Voima,,found 0 possibly matching ETS records,other,0.0,566773.7899999982,0.0,0.0,0.0,0.0
 FI,suomenoja,Suomenoja 2 GT,,found 0 possibly matching ETS records,gas,0.0,99851.96000000104,0.0,0.0,0.0,0.0
 FI,tahkoluoto,Tahkoluoto B1,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
-FI,toppila,Toppila B2,,found 0 possibly matching ETS records,other,0.0,217344.96000000482,0.0,0.0,0.0,0.0
 FI,vaskiluoto,Vaskiluoto B3,Vaskiluoto 3-voimalaitos,0 generation,,0.0,0.0,0.0,0.0,0.0,0.0
 FR,Manual Match #123,AMFARD14|AMFARD15,Usine de Gonfreville (UGO),emission factor seems implausible,gas,0.9793106342880538,1226593.0,6724281.950186526,619194.3540107729,258168.6459892271,210.47621011144457
 FR,havre,HAVRE 4,EDF Centrale Le Havre,0 emissions,coal,0.0,3172.0,0.0,0.0,0.0,0.0
 FR,huchet,EMILE HUCHET 6|EMILE HUCHET 7|EMILE HUCHET 8,Gazel Energie Generation - Centrale Emile Huchet,uses mixed fuels,,0.0,5930865.0,0.0,0.0,0.0,0.0
 FR,landivisiaugu,FR_LANDIVISIAUGU,,found 0 possibly matching ETS records,gas,0.0,364688.0,0.0,0.0,0.0,0.0
-FR,provence,PROVENCE 5|PROVENCE 4,Gazel Energie Generation - Centrale de Provence|PROVENCE ENROBES|SALON DE PROVENCE ENERGIE VERTE - SEV,found 3 possibly matching ETS records,other,0.0,366649.0,0.0,0.0,0.0,0.0
 GR,Manual Match #139,KARDIA1|KARDIA2|KARDIA3|KARDIA4,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΗΣ ΚΑΡΔΙΑΣ,0 generation,,0.0,0.0,0.0,0.0,0.0,0.0
 GR,Manual Match #142,MEGALOPOLI3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ Α ΜΟΝΑΔΑ ΙΙΙ,0 generation,,0.0016718844037371177,0.0,0.0,0.0,0.0,0.0
 GR,amyndeo,AMYNDEO1|AMYNDEO2,,found 0 possibly matching ETS records,,0.0,0.0,0.0,0.0,0.0,0.0
@@ -61,16 +50,13 @@ IE,north,North Wall CT5,ESB North Wall Generating Station,0 generation,,0.0,0.0,
 IE,offaly,West Offaly,ESB West Offaly,0 generation,,0.0,0.0,0.0,0.0,0.0,0.0
 IT,azotati,UP_AZOTATI_5,,found 0 possibly matching ETS records,gas,0.0,208767.0,0.0,0.0,0.0,0.0
 IT,bussi,UP_BUSSI_1,,found 0 possibly matching ETS records,gas,0.0,94807.0,0.0,0.0,0.0,0.0
-IT,cet,UP_CET2_1,,found 0 possibly matching ETS records,other,0.0,43804.0,0.0,0.0,0.0,0.0
 IT,cetservola,UP_CETSERVOLA_1,,found 0 possibly matching ETS records,gas,0.0,368623.0,0.0,0.0,0.0,0.0
 IT,cntrlflvcr,UP_CNTRLFLVCR_7,,found 0 possibly matching ETS records,gas,0.0,8625.0,0.0,0.0,0.0,0.0
 IT,cttamarete,UP_CTTAMARETE_1,,found 0 possibly matching ETS records,gas,0.0,73215.0,0.0,0.0,0.0,0.0
 IT,duino,UP_DUINO_1,,found 0 possibly matching ETS records,gas,0.0,49799.0,0.0,0.0,0.0,0.0
 IT,isabenergy,UP_ISABENERGY_2|UP_ISABENERGY_3,,found 0 possibly matching ETS records,,0.0,2643239.0,0.0,0.0,0.0,0.0
-IT,lvtrntcet,UP_LVTRNTCET3_1,,found 0 possibly matching ETS records,other,0.0,59570.0,0.0,0.0,0.0,0.0
 IT,npwrlvorno,UP_NPWRLVORNO_7,,found 0 possibly matching ETS records,gas,0.0,35459.0,0.0,0.0,0.0,0.0
 IT,pmglndarco,UP_PMGLNDARCO_1,,found 0 possibly matching ETS records,gas,0.0,2.0,0.0,0.0,0.0,0.0
-IT,sarlux,UP_SARLUX_1,,found 0 possibly matching ETS records,other,0.0,4086559.0,0.0,0.0,0.0,0.0
 IT,tnrsdlmnsp,UP_TNRSDLMNSP_1,,found 0 possibly matching ETS records,gas,0.0,65999.0,0.0,0.0,0.0,0.0
 IT,trapani,UP_TRAPANI_C_1|UP_TRAPANI_C_2,,found 0 possibly matching ETS records,gas,0.0,15064.0,0.0,0.0,0.0,0.0
 LT,,VE3 TG-1|VE3 TG-2,,seems to be a meaningless generation unit name,,0.0,0.0,0.0,0.0,0.0,0.0
