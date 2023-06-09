@@ -60,7 +60,7 @@ impl Match {
 
         let fuel = fuel_mix
             .into_iter()
-            .filter(|(_, out)| *out > 0.95 * output_sum)
+            .filter(|(_, out)| *out >= 0.95 * output_sum)
             .map(|(fuel, _)| fuel.to_string())
             .next();
 
