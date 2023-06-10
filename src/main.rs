@@ -227,7 +227,7 @@ fn get_key(name: &str) -> String {
         "voimalaitos", "lämpökeskus", // FI
         "electrique", // FR
         "gazturbinas", "eromu", // HU
-        "centrale", "energi", "termoelettrica", "combinato", "cogenera", // IT
+        "centrale", "energi", "termoelettrica", "turbogas", "combinato", "cogenera", // IT
         "vattenfall", // NL
         "cieplownia", "oddzial", "elektrowni", "energetyczny", "wytwarzanie", // PL
         "central", "termoelectrica", "termoeletrica", "termica", // RO

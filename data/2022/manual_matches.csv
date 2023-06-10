@@ -5,6 +5,7 @@ Block 07 Linz,,,ETS data seems to be missing
 DO3,Wien Energie - KW Donaustadt,,
 GDK-Mellach Linie 10|GDK-Mellach Linie 20,Verbund GDK-Mellach,,
 Kraftwerk Timelkam GUD,Energie AG GuD Kraftwerk Timelkam,,
+Lau GuD,Wien Energie - KW Leopoldau,,
 Sim1_DT|Sim1_GT41|Sim1_GT42,Wien Energie - KW Simmering 1+2,,missing block 2 data (60MW)
 Sim3_DT,Wien Energie - KW Simmering 3,,missing gas turbine data
 ,,,
@@ -13,6 +14,7 @@ EDF Luminus Seraing GT1|EDF Luminus Seraing GT2|SERAING TV,EDFL - Seraing,,
 INESCO WKK,INEOS Oxide Utilities,,
 RINGVAART STEG,EDFL - Centrale Buitenring Wondelgem Gent,,
 SAINT-GHISLAIN STEG,Electrabel Baudour,,
+Scheldelaan Exxonmobil,,,"no separate ETS record for power plant"
 T-power Beringen,T-Power,,
 VILVOORDE GT|VILVOORDE ST,Electrabel - Vilvoorde,,
 Zelzate 2 Knippegroen,Electrabel - Knippegroen,,"burns blast furnace gas, not natural gas, so high emissions are expected"
@@ -32,6 +34,7 @@ EPC1_G2____|EPC1_G3____|EPC1_G4____|EPC1_G5____|EPC1_G6____,Elektrárna Počerad
 EPC2_B21___,"ČEZ, a. s., Elektrárna Počerady 2",,
 EPR2_G23___|EPR2_G24___|EPR2_G25___,"ČEZ, a. s. - Elektrárna Prunéřov 2",,
 EPVR.B1|EPVR.B2,Sokolovská uhelná - Teplárna a PPC Vřesová,,uses syngas derived from lignite as well as natural gas -> high emission factor
+ETI2.G6,Elektrárna Tisová,,
 ETU2_G21___|ETU2_G22___|ETU2_G23___|ETU2_G24___,"ČEZ, a. s. - Elektrárna Tušimice 2",,
 ,,,
 ,,,DE
@@ -97,6 +100,7 @@ CAMPGIB1,CCC Campo de Gibraltar Grupo 10,,
 CAMPGIB2,CCC Campo de Gibraltar Grupo 20,,
 CARTAGENA1|CARTAGENA2|CARTAGENA3,CCC - Cartagena,,
 CASTEJON 1|CASTEJON 2|CTJON3,"Totalenergies Clientes, S.A.U. - Castejón -1|Iberdrola Generación Térmica-C.C.Castejón grupo 2",,
+COLON 4,"Endesa Generación, S.A. - Cristóbal Colón",,
 CTNUTG1|CTNUTG2|CTNUTV,"ENGIE CASTELNOU, S.L.U.",,
 CTN3TG1|CTN3TG2|CTN3TV|CTN4TG1|CTN4TG2|CTN4TV,Iberdrola G. Térmica-C.C.Castellón grupos 3 y 4,,
 ECT3TG1|ECT3TG2|ECT3TV1,Repsol Generación Eléctrica(Escatrón-C.Combinado),,
@@ -104,8 +108,10 @@ ESC6TG1|ESC6TG2|ESC6TV,Iberdrola Generación T-C.C Escombreras grupo 6,,
 ESCCC1|ESCCC2|ESCCC3,"ENGIE CARTAGENA, S.L. - Escombreras",,
 MALA1,CCC.. Málaga,,
 PALOS1|PALOS 2|PALOS 3,CCC -Palos de la Frontera,,
-PdV2,"Alpig Energia España, S.A.U.",,Plana del Vent
+PBCN1|PBCN2,CCC- Central de Barcelona,,
+PVENT1|PdV2,"Naturgy Ciclos Combinados Plana del VENT|Alpig Energia España, S.A.U.",,Plana del Vent
 P.G.RODR 1|P.G.RODR 2|P.G.RODR 3|P.G.RODR 4,Central Térmica As Pontes,,
+P.NUEVO 3,C.T. - Puente Nuevo,,
 PGR5TG1|PGR5TG2|PGR5TV,"Endesa Generación, S.A. - As Pontes",,
 SAGU1|SAGU2|SAGU3,CCC. - Sagunto,,
 SBO3,CCC Sabón,,
@@ -118,10 +124,13 @@ UFARRU1|UFARRU2,"ContourGlobal La Rioja, S.L",,
 ,,,
 ,,,FI
 Forssa GT1|Forssa GT2,Forssan varavoimalaitos,,
+Kristiina B1|Kristiina B2,Kristiinan voimalaitos,,
+Kymijärvi B1,Kymijärven voimalaitos,,
 Meri-Pori B1,Meri-Porin voimalaitos,,
 Naantali B4|Naantali B1|Naantali B2|Naantali B3,Naantalin voimalaitos,plausible-emission-factor-range:100-1500,"B4 is not actually a coal power plant since 2017, it's biomass now"
 Salmisaari SaB,Salmisaaren voimalaitos,,
 Suomenoja 2 GT,,,"missing two <100MW generation units"
+Tahkoluoto B1,Tahkoluodon voimalaitos,,
 Vaskiluoto B2,Vaskiluoto 2 -voimalaitos,,
 Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,,
 ,,,
@@ -131,14 +140,17 @@ BLENOD 5,id:6200067:451,,
 BOUCHAIN 7,EDF Cycle Combiné Gaz de Bouchain,,
 Croix-de-Metz,TOTALENERGIES - Centrale Electrique Toul,,
 DK6-TG1|DK6-TV1|DK6-TG2|DK6-TV2,ETF - CENTRALE DK6,,"high emissions, burns operating gas from steel factory"
+FR_LANDIVISIAUGU,CEB - CENTRALE ELECTRIQUE DE LANDIVISIAU,plausible-emission-factor-range:300-600,"new, modern CHP plant burning natural gas. emission factor >2000 not plausible, maybe missing ETS allocation (heat) data in first year of operation."
 FR-GA-MORANT1,TOTALENERGIES CENTRALE ELECTRIQUE BAYET,,
 GENNEVILLIERS 1,EDF TAC de Gennevilliers,,
 SPEM CCG,Etablissement de Montoir-de-Bretagne,,
 ,,,
 ,,,GR
 AG_DIMITRIOS1|AG_DIMITRIOS2|AG_DIMITRIOS4|AG_DIMITRIOS5|AG_DIMITRIOS3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΗΣ ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ,,
+AG_NIKOLAOS2,,,"new powerplant, ETS apparently still missing"
 ALIVERI5,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΛΙΒΕΡΙΟΥ,,
 ALOUMINIO,ALUMINIUM OF GREECE,,
+AMYNDEO1|AMYNDEO2,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΜΥΝΤΑΙΟ ΦΛΩΡΙΝΑΣ,,
 ELPEDISON_THESS,ΣΤΑΘΜΟΣ ΠΑΡΑΓΩΓΗΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΘΕΣ/ΚΗΣ,,
 ELPEDISON_THISVI,ΣΤΑΘΜΟΣ ΠΑΡΑΓΩΓΗΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΘΙΣΒΗΣ,,
 HERON_CC|HERON1|HERON2|HERON3,ΣΤΑΘ. ΗΛΕΚΤΡΟΠΑΡΑΓΩΓΗΣ ΣΥΝΔΥΑΣΜΕΝΟΥ ΚΥΚΛΟΥ ΗΡΩΝ ΙΙ,,
@@ -149,6 +161,7 @@ MEGALOPOLI3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ �
 MEGALOPOLI4,ΑΗΣ ΜΕΓΑΛΟΠΟΛΗΣ ΜΟΝΑΔΑ 4 κωδ 1-40,,
 MEGALOPOLI_V,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ - ΜΟΝΑΔΑ V,,
 MELITI,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΛΙΤΗΣ,,
+PTOLEMAIDA5,,,"new power plant, ETS data apparently still missing"
 ,,,
 ,,,HU
 CSP_GT1|CSP_GT2|CSP_ST,Alpiq Csepel II. Erőmű,,
@@ -166,14 +179,20 @@ Huntstown CCGT Unit 2,CCGT HPC2 (Huntstown Power Station Phase II),,
 Sealrock 3|Sealrock 4,Aughinish Alumina,,
 ,,,
 ,,,IT
+UP_AZOTATI_5,MARGHERA AZOTATI,,
 UP_BRNDSSUDCE_1|UP_BRNDSSUDCE_3|UP_BRNDSSUDCE_4,CENTRALE TERMOELETTRICA DI BRINDISI SUD,,
+UP_BUSSI_1,BUSSI SUL TIRINO,,
 UP_CCGTPRILIA_1,Centrale a ciclo combinato di Aprilia,,
+UP_CETSERVOLA_1,GEFS - CENTRALE ELETTRICA DI TRIESTE,,
 UP_CHIVASSO_1|UP_CHIVASSO_2,CENTRALE TERMOELETTRICA DI CHIVASSO,,
 UP_CNTRLDSCND_1|UP_CNTRLDSCND_2,CENTRALE TURBOGAS A CICLO COMBINATO DI SCANDALE,,
 UP_CNTRLDTRNL_1,Centrale a ciclo combinato di Turano Lodigiano,,
 UP_CNTRLDTVRL_1,Centrale di Teverola,,
+UP_CNTRLFLVCR_7,id:IT-A-2491:217543,,Flavio Crescentini (Presenzano)
 UP_CTE_DEL_M_2,CENTRALE TERMOELETTRICA DI PONTI SUL MINCIO,,
 UP_CTNUCENORD_2|UP_CTNUCENORD_3,id:IT-A-826:562,,"NuCe Nord, Priolo Gargallo, by ERG S.P.A."
+UP_CTTAMARETE_1,Cte Tamarete,,
+UP_DUINO_1,,,"only combined paper mill + power plant ETS data available"
 UP_FIUMESANT_3|UP_FIUMESANT_4,Centrale termoelettrica di fiumesanto,,
 UP_ISABENERGY_2|UP_ISABENERGY_3,id:IT-A-825:561,,uses syngas -> may lead to higher emissions
 UP_LA_CASELL_1|UP_LA_CASELL_2|UP_LA_CASELL_3|UP_LA_CASELL_4,CENTRALE TERMOELETTRICA DI LA CASELLA,,
@@ -184,10 +203,12 @@ UP_NAPOLIL_4,Centrale Termoelettrica Napoli,,
 UP_NCTLVRNFRR_1,Centrale Termoelettrica di Livorno Ferraris,,
 UP_NPWRBRNDSI_8|UP_NPWRBRNDSI_9|UP_NPWRBRNDSI_10,EniPower S.p.A. - Stabilimento di Brindisi,,
 UP_NPWRFRRRRB_8|UP_NPWRFRRRRB_9|UP_NPWRFRRRRB_10,EniPower S.p.A.- Stabilimento di Ferrera Erbognone,,
+UP_NPWRLVORNO_7,,,only refinery ETS data available
 UP_NPWRMNTOVA_2|UP_NPWRMNTOVA_3,EniPower Mantova,,
 UP_NPWRRVENNA_9|UP_NPWRRVENNA_10|UP_NPWRRVENNA_11,EniPower S.p.A. - Stabilimento di Ravenna,,
 UP_NRGAMOLISE_1,Centrale a ciclo combinato di Termoli,,
 UP_PIETRAFIT_5,CENTRALE TERMOELETTRICA DI PIETRAFITTA,,
+UP_PMGLNDARCO_1,ACERRA - POMIGLIANO,,
 UP_PORTO_COR_3|UP_PORTO_COR_4,CENTRALE TERMOELETTRICA DI PORTO CORSINI,,
 UP_PRIOLO_C_1|UP_PRIOLO_C_2,CENTRALE TERMOELETTRICA DI PRIOLO GARGALLO,,
 UP_RATINO_1,Centrale Termoelettrica di San Severo,,
@@ -199,13 +220,16 @@ UP_SRGNPGLCNT_1,Centrale a ciclo combinato di Modugno,,UP_SRGNPGLCNT_1 = sorgeni
 UP_S.F._DEL_1|UP_S.F._DEL_2|UP_S.F._DEL_5|UP_S.F._DEL_6,CENTRALE TERMOELETTRICA DI SAN FILIPPO DEL MELA,,
 UP_TAVAZZANO_5|UP_TAVAZZANO_C_6,Centrale di Tavazzano e Montanaso,,
 UP_TERMINI_I_4|UP_TERMINI_I_5|UP_TERMINI_I_6|UP_TERMINI_I_42,CENTRALE TERMOELETTRICA DI TERMINI IMERESE,,
+UP_TNRSDLMNSP_1,,,"Tenaris Dalmine steel plant, no ETS data for power plant only"
 UP_TORINONORD_1,Centrale termoelettrica Torino Nord,,
 UP_TORREVALN_2|UP_TORREVALN_3|UP_TORREVALN_4,CENTRALE TERMOELETTRICA DI TORREVALDALIGA NORD,,
 UP_TRRVLDLIGA_5|UP_TRRVLDLIGA_6,Centrale Termoelettrica Torrevaldaliga,,
 UP_VADOTERM_5,Centrale Termoelettrica Vado Ligure,,
 ,,,
 ,,,LT
+KTE,Kauno termofikacinė elektrinė,,
 LE TG-7|LE TG-8|LE TG-9,Lietuvos elektrinė,,
+VE3 TG-1|VE3 TG-2,Termofikacinė elektrinė Nr. 3 (E-3),,
 ,,,
 ,,,LV
 "Block-1, Gas Turbine, RTEC2|Block-1, Steam Turbine, RTEC2|Block-2, Gas Turbine, RTEC2|Block-2, Steam Turbine, RTEC2",id:LV-RIT-R-II-SEG-07:7,,
@@ -215,15 +239,22 @@ Amer 9,Amercentrale,plausible-emission-factor-range:100-1500,"uses lots of bioma
 Claus C,Energie Productie Clauscentrale,,
 Delesto 2,,,seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.'
 Diemen 33|Diemen 34,Vattenfall Centrale Diemen,,
+EDH,Uniper Centrale De Constant Rebecqueplein,,
 Eemshaven 10|Eemshaven 20|Eemshaven 30,RWE Eemshaven Magnum B.V.,,
 Eemshaven A|Eemshaven B,RWE Eemshaven Centrale,,
 Eems 7|Eems 6|Eems 5|Eems 4|Eems 3|Eems 20,ENGIE Eemscentrale,,
-Elsta 1,Dow Benelux B.V. BKG 10,,
+Elsta 1,,,"no recent ETS data: 'Dow Benelux B.V. BKG 10'"
 FLEVO 4|FLEVO 5,ENGIE Maximacentrale,,
 Maasvlakte 3,Uniper Centrale Maasvlakte,,
+NAM Schoonebeek,,,ETS 'NAM B.V. Warmtekrachtcentrale en Oliebehandelingsinstallatie Schoonebeek (WKC/OB I)' seems to be more than a power plant
 NLROTTETH__1,Power Plant Rotterdam B.V.,,
+RoCa 3,Uniper Centrale RoCa,,
 Sloecentrale 10|Sloecentrale 20,Sloe Centrale B.V.,,
+Swentibold 1,,,"no recent ETS data"
 Velsen 24|Velsen 25,Vattenfall Power Velsen,,"burns blast furnace gas, so high emissions are expected"
+,,,
+,,,NO
+Evm G1 Therm,,,"no ETS data"
 ,,,
 ,,,PL
 BGP Wloclawek,id:PL-1087-13:208182,,
@@ -232,15 +263,18 @@ EC Rzeszów B1,Oddział Elektrociepłownia Rzeszów I,,
 EC Stalowa Wola B12,Elektrociepłownia Stalowa Wola SA,,
 Jaworzno 2 JWCD B7,TAURON Wytwarzanie S.A. o. Nowe Jaworzno w Jaworzn,,
 Jaworzno 3 B3|Jaworzno 3 B1|Jaworzno 3 B2|Jaworzno 3 B4|Jaworzno 3 B5|Jaworzno 3 B6,TAURON Wytwarzanie SA O. Elektrownia Jaworzno III,,
+Katowice B1,Zakład Wytwarzania Katowice,,
 Kozienice 1 B2|Kozienice 1 B6|Kozienice 1 B1|Kozienice 1 B3|Kozienice 1 B4|Kozienice 1 B5|Kozienice 1 B7|Kozienice 1 B8|Kozienice 2 B10|Kozienice 2 B09|Kozienice 2 B11,ELEKTROWNIA KOZIENICE|Elektrownia Kozienice - blok energetyczny 11|Elektrownia Kozienice - kotłownia rozruchowa,,
 Kraków Leg B1|Kraków Leg B2|Kraków Leg B3|Kraków Leg B4,PGE Energia Ciepła S.A. Oddział nr 1 w Krakowie,,
 Lagisza B10,TAURON Wytwarzanie SA O. Elek. Łagisza w Będzinie,,
+Lódz-4 B03,Elektrociepłownia Zakład EC-4 Veolia Energia Łódź,,
 Ostroleka B B03|Ostroleka B B01|Ostroleka B B02,Energa ELEKTROWNIE OSTROŁĘKA SA,,
 Patnów 1 B1|Patnów 1 B2|Patnów 1 B5,ELEKTROWNIA PĄTNÓW,,
 Patnów 2 B9,ELEKTROWNIA PĄTNÓW II,,
 Plock B01,id:PL-0391-05:455,,
 Polaniec B1|Polaniec B2|Polaniec B3|Polaniec B4|Polaniec B5|Polaniec B6|Polaniec B7|Polaniec 2 blok 9,id:PL-0005-05:5,,
 Rybnik B3|Rybnik B4|Rybnik B5|Rybnik B6|Rybnik B7|Rybnik B8,PGE GiEK S.A. Oddział w Rybniku,,
+Siersza B1|Siersza B2,TAURON Wytw. SA O. Elektrownia Siersza w Trzebini,,
 Zielona Góra BGP,ELEKTROCIEPŁOWNIA ZIELONA GÓRA S.A.,,
 ,,,
 ,,,PT
@@ -250,14 +284,18 @@ T.Outeiro C.C. - G1|T.Outeiro C.C. - G2|T.Outeiro C.C. - G3,Central de Ciclo Com
 ,,,RO
 BucurestiSud_BUCS3_CA|BucurestiSud_BUCS4_CA,SC Electr.centrt.Bucuresti-CET Bucuresti Sud,,"data seems off, 1500g CO2/kWh"
 BucurestiVest_BUCV3+4_CA,CTE Bucuresti Vest,,"data seems off, 600g CO2/kWh"
-CCCCBrazi_BraziST_CA,Centrala de Cogenerare cu Ciclu Combinat- Brazi,,
+CCCCBrazi_BraziST_CA|CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,,"has 5 <100MW generation units, ETS is 'Centrala de Cogenerare cu Ciclu Combinat- Brazi'"
+CetCraiova2_CRAI1_CA|CetCraiova2_CRAI2_CA,SOCIETATEA ELECTROCENTRALE CRAIOVA SA,,
+CetGalati_GALA5_CA|CetGalati_GALA3_CA,SC ELECTROCENTRALE GALATI SA,,
 CteTurceni_TURC4_CA|CteTurceni_TURC5_CA|CteTurceni_TURC7_CA,S Complexul Energetic Oltenia SA-SE Turceni,,
 CTE_Rovinari_ROVI3_CA|CTE_Rovinari_ROVI4_CA|CTE_Rovinari_ROVI6_CA,SC C.E. OLTENIA SA - SUC. ELECTROCENTRALE ROVINARI,,
 Isalnita_ISAL7_CA,S Complexul Energetic Oltenia SA - SE Isalnita,,
 ,,,
 ,,,SE
+Gasturbiner Halmstad G12,,,ETS data seems to be missing
 Karlshamn G1|Karlshamn G2|Karlshamn G3,id:10-563-005832-2004:138|id:10-563-005762-04:241,,
 Rya KVV,Rya Kraftvärmeverk,plausible-emission-factor-range:250-600,"started using some renewable fuels this year"
 ,,,
 ,,,SK
 Malženice TG1,"SPP Kompresorová stanica, Trakovice",,"that ETS account belongs to ZSE, which bought the malzenice plant recently, the location of trakovice is correct, and the emissions fit perfectly for a plant that has a name-plate efficiency of 58%"
+PPC Bratislava TG1,id:103-049-2012:204,,"burns oil, gas and diesel, but Entso-E lists it as gas only -> higher than expected emissions"
