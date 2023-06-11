@@ -1,4 +1,5 @@
 country,name,generation,emission,ignore_reason,fuel,sigma,generation_el,generation_heat,emissions_heat,emissions_el,emission_factor
+AT,Manual Match #10,Sim3_DT,,"filtered in manual_matches.csv: missing gas turbine data, ETS is 'Wien Energie - KW Simmering 3'",gas,0.0,549538.75,0.0,0.0,0.0,0.0
 AT,Manual Match #4,Block 07 Linz,,filtered in manual_matches.csv: ETS data seems to be missing,gas,0.0,1006613.8200000194,0.0,0.0,0.0,0.0
 AT,Manual Match #8,Lau GuD,Wien Energie - KW Leopoldau,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 AT,mellach,FHKW Mellach,Verbund FHKW Mellach,emission factor seems implausible,gas,0.0,998.5100000000001,598841.293875903,3137.0440733616706,11.955926638329402,11.973767551981853
@@ -10,6 +11,7 @@ DE,Manual Match #55,GuD Dormagen,,"filtered in manual_matches.csv: provides stea
 DE,Manual Match #57,GuD-Block,,"filtered in manual_matches.csv: provides heat for local industry which takes part in ETS, so heat emission calculation fails. ETS is 'Gemeinschaftskraftwerk Burghausen'",gas,0.0,205574.79999999912,0.0,0.0,0.0,0.0
 DE,Manual Match #66,HKW West Block 4,,"filtered in manual_matches.csv: HKW West, Frankfurt - coal blocks (2 + 3) are <100MW, so missing from ENTSO-E. ETS is id:14310-0512:1078",gas,0.0,162273.5499999995,0.0,0.0,0.0,0.0
 DE,Manual Match #67,IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,filtered in manual_matches.csv: only combined refinery + power plant ETS data is available,oil,0.0,1279350.75,0.0,0.0,0.0,0.0
+DE,Manual Match #72,Kraftwerk Wahlheim GT D,,"filtered in manual_matches.csv: ETS is 'Kraftwerk Walheim', apparent typo in generation name. Coal blocks are missing from Entso-E data, this is just the oil-fired gas turbine.",oil,0.0,32498.039999999997,0.0,0.0,0.0,0.0
 DE,Manual Match #74,KW Hafen Block 6,Kraftwerk Hafen Block 6,0 generation,coal,0.0,0.0,0.0,0.0,0.0,0.0
 DE,tiefstack,HKW Tiefstack Block 2|HKW Tiefstack GuD,Heizkraftwerk Tiefstack,uses mixed fuels,,0.0,1069633.0,0.0,0.0,0.0,0.0
 DK,Manual Match #92,Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,emission factor seems implausible,gas,0.0,238602.34000000058,370333.3084760053,45825.461765406806,67485.5382345932,282.8368667071456

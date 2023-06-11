@@ -1,4 +1,5 @@
 country,name,generation,emission,ignore_reason,fuel,sigma,generation_el,generation_heat,emissions_heat,emissions_el,emission_factor
+AT,Manual Match #10,Sim3_DT,,"filtered in manual_matches.csv: missing gas turbine data, ETS is 'Wien Energie - KW Simmering 3'",gas,0.0,300198.25,0.0,0.0,0.0,0.0
 AT,Manual Match #4,Block 07 Linz,,filtered in manual_matches.csv: ETS data seems to be missing,gas,0.0,1026654.1400000143,0.0,0.0,0.0,0.0
 AT,Manual Match #8,Lau GuD,Wien Energie - KW Leopoldau,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 AT,mellach,FHKW Mellach,Verbund FHKW Mellach,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
@@ -15,7 +16,7 @@ DE,Manual Match #56,GuD-Anlage-HKW-Merkenich,Heizkraftwerk Merkenich,0 generatio
 DE,Manual Match #57,GuD-Block,,"filtered in manual_matches.csv: provides heat for local industry which takes part in ETS, so heat emission calculation fails. ETS is 'Gemeinschaftskraftwerk Burghausen'",gas,0.0,183025.10000000376,0.0,0.0,0.0,0.0
 DE,Manual Match #66,HKW West Block 4,,"filtered in manual_matches.csv: HKW West, Frankfurt - coal blocks (2 + 3) are <100MW, so missing from ENTSO-E. ETS is id:14310-0512:1078",gas,0.0,65342.11000000004,0.0,0.0,0.0,0.0
 DE,Manual Match #67,IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,filtered in manual_matches.csv: only combined refinery + power plant ETS data is available,oil,0.0,1373945.0,0.0,0.0,0.0,0.0
-DE,Manual Match #71,Kraftwerk Wahlheim GT D,Kraftwerk Walheim,emission factor seems implausible,oil,0.0,30978.03000000001,0.0,0.0,144413.0,4661.787725042553
+DE,Manual Match #71,Kraftwerk Wahlheim GT D,,"filtered in manual_matches.csv: ETS is 'Kraftwerk Walheim', apparent typo in generation name. Coal blocks are missing from Entso-E data, this is just the oil-fired gas turbine.",oil,0.0,30978.03000000001,0.0,0.0,0.0,0.0
 DE,Manual Match #83,Sued GuD1 GT2|Sued GuD1 GT3|Sued GuD2 DT60|Sued GuD2 GT61|Sued GuD2 GT62,Heizkraftwerk Süd GuD,emission factor seems implausible,gas,0.0,1062326.9600000042,1802123.9262275395,215598.40769241046,290496.59230758954,273.45309235829654
 DE,tiefstack,HKW Tiefstack Block 2|HKW Tiefstack GuD,Heizkraftwerk Tiefstack,uses mixed fuels,,0.0,1160192.5,0.0,0.0,0.0,0.0
 DK,Manual Match #88,Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,emission factor seems implausible,gas,0.0,186768.78999999957,326664.4513989718,38387.04652449829,50165.95347550171,268.59923157130174

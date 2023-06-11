@@ -6,8 +6,8 @@ DO3,Wien Energie - KW Donaustadt,,
 GDK-Mellach Linie 10|GDK-Mellach Linie 20,Verbund GDK-Mellach,,
 Kraftwerk Timelkam GUD,Energie AG GuD Kraftwerk Timelkam,,
 Lau GuD,Wien Energie - KW Leopoldau,,
-Sim1_DT|Sim1_GT41|Sim1_GT42,Wien Energie - KW Simmering 1+2,,missing block 2 data (60MW)
-Sim3_DT,Wien Energie - KW Simmering 3,,missing gas turbine data
+Sim1_DT|Sim1_GT41|Sim1_GT42,Wien Energie - KW Simmering 1+2,,"missing block 2 data (60MW), but apparently it is rarely in use"
+Sim3_DT,,,"missing gas turbine data, ETS is 'Wien Energie - KW Simmering 3'"
 ,,,
 ,,,BE
 EDF Luminus Seraing GT1|EDF Luminus Seraing GT2|SERAING TV,EDFL - Seraing,,
@@ -39,9 +39,9 @@ ETU2_G21___|ETU2_G22___|ETU2_G23___|ETU2_G24___,"ČEZ, a. s. - Elektrárna Tuši
 ,,,
 ,,,DE
 eic:11WD2HANN5C---1X|eic:11WD2HANN5C---2V,GKH - Gemeinschaftskraftwerk Hannover GmbH,,
-Block 3,Kraftwerk Mehrum Block 3,,
-Block AGuD|Block F,Heizkraftwerk Lausward,,
-Block B,Kraftwerk Herrenhausen,,
+eic:11WD2MEHR2CSWHCZ,Kraftwerk Mehrum Block 3,,
+eic:11WD7NORF5GAGUDC|eic:11WD7NORF5GGUDFA,Heizkraftwerk Lausward,,
+eic:11WD2HERR5G----G,Kraftwerk Herrenhausen,,
 Block GT1|Block GT2,Heizkraftwerk GuD Süd (C200),,BASF Ludwigshafen Süd
 Block GT 11|Block GT 12,GuD-Anlage A 800,,BASF Ludwigshafen Mitte
 Datteln 4,Kraftwerk Datteln Block 4,,
@@ -58,7 +58,7 @@ eic:11WD2BURG000145R,,,"provides heat for local industry which takes part in ETS
 HERNE_4,Heizkraftwerk Herne,,
 HKW Altbach/Deizisau 2,Kraftwerk Altbach,,
 HKW Nord GuD Nord,id:14310-0904:1444,,Leipzig
-HKW IIIB,HKW IIIA GT,,"ETS name is confusing, apparently it's for both A and B (but A is only 40MW)"
+HKW IIIB,HKW Duisburg|HKW IIIA GT,,"Duisburg-Wanheim HKW III. ETS name is confusing, looks like it's for both A and B (but A is only 40MW)"
 HKW Mitte GUD,id:14310-0638:1194,,Berlin
 HKW Reuter West Block D|HKW Reuter West Block E,HKW Reuter West,,
 HKW Wedel Block 1|HKW Wedel Block 2,Heizkraftwerk Wedel,,
@@ -68,7 +68,7 @@ IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,,only combined refinery + power
 Irsching 4,Kraftwerk Irsching Block 4,,
 KMW_KW3,Kraftwerk Mainz,,
 Knapsack 2,Knapsack II,,
-Kraftwerk Wahlheim GT D,Kraftwerk Walheim,,apparent typo in generation name
+Kraftwerk Wahlheim GT D,,,"ETS is 'Kraftwerk Walheim', apparent typo in generation name. Coal blocks are missing from Entso-E data, this is just the oil-fired gas turbine."
 KW Boxberg Block Q|KW Boxberg Block R,Kraftwerk Boxberg Werk IV,,
 KW Hamm-Uentrop Block 10|KW Hamm-Uentrop Block 20,GuD Hamm - TGH,,
 KW Hastedt Block 15,Kraftwerk Hastedt Block 15,,
@@ -79,7 +79,7 @@ Lichterfelde GUD,GuD-HKW Lichterfelde,,
 NIEHL-II-DT|NIEHL-II-GT|NIEHL-3,Heizkraftwerk Niehl,,
 Nord 2 T20,Heizkraftwerk Nord 2,,München
 RDK 7|RDK 8,RDK Karlsruhe,,
-Schkopau A|Schkopau B,Kraftwerk Schkopau,,provides steam for local industry
+Schkopau A|Schkopau B,Kraftwerk Schkopau,,
 Sued GuD1 GT2|Sued GuD1 GT3|Sued GuD2 DT60|Sued GuD2 GT61|Sued GuD2 GT62,Heizkraftwerk Süd GuD,,"missing GuD1 DT data for München Süd, as it is <100MW"
 VOELKLINGEN_HKV,Heizkraftwerk Völklingen,,
 VOELKLINGEN_MKV,Modellkraftwerk Völklingen,,
