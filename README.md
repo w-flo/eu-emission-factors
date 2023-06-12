@@ -142,9 +142,7 @@ These heat-related emissions are subtracted from the total emissions of each
 plant before calculating the emission factor for electricity generation. Details
 are described below.
 
-**Currently, the code only handles a select few years correctly. The heat
-benchmark is currently hard-coded for the 2021-2025 time span, among other
-issues.** So for processing <=2020 or >=2026 data, the CHP code is invalid.
+**Currently, the code only handles years 2020-2025.**
 
 #### Free-of-charge ETS allocations
 

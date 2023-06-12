@@ -263,13 +263,18 @@ fn filter_matches(matches: &mut Vec<Match>) {
 
 fn calculate_emission_factors(year: u32, matches: &mut [Match], paths: &FilePaths) {
     // Heat emissions estimation. See README.md
-    assert!((2021..=2025).contains(&year));
+    assert!(year >= 2020, "year < 2020 unsupported");
 
     let k: f64 = (year - 2020).into();
     let beta = 0.8782 - (k * 0.022); // This is valid for >= 2020
     let gamma = 0.3; // This is valid for >= 2020
 
-    let heat_benchmark = 47.3; // t CO2/TJ, valid for 2021-2025.
+    // https://climate.ec.europa.eu/system/files/2021-10/policy_ets_allowances_bm_curve_factsheets_en.pdf
+    let heat_benchmark = match year {
+        2013..=2020 => 62.3, // t CO2/TJ
+        2021..=2025 => 47.3, // t CO2/TJ
+        _ => panic!("year {year} is unsupported"),
+    };
 
     let efficiency_heat = 0.8;
     let efficiency_el = 0.35;
