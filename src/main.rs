@@ -98,14 +98,14 @@ fn load_manual_matches(out: &mut Vec<Match>, paths: &FilePaths) {
         }
     }
 
-    for (index, manual_match) in manual_matches.into_iter().enumerate() {
+    for manual_match in manual_matches {
         if manual_match.emission.is_empty() && manual_match.generation.is_empty() {
             // so a CSV comment line can be inserted like ",,,DE"
             continue;
         }
 
         let mut m = Match::new(
-            format!("Manual Match #{}", index + 2),
+            String::from("Manual Match"),
             manual_match
                 .generation
                 .split('|')
@@ -381,7 +381,11 @@ impl FuelStats {
 }
 
 fn generate_output(matches: &mut [Match], paths: &FilePaths) {
-    matches.sort_unstable_by(|x, y| (&x.country, &x.name).cmp(&(&y.country, &y.name)));
+    matches.sort_unstable_by(|x, y| {
+        let cmp_criteria_x = (&x.country, &x.name, &x.generation.first().map(|g| &g.name));
+        let cmp_criteria_y = (&y.country, &y.name, &y.generation.first().map(|g| &g.name));
+        cmp_criteria_x.cmp(&cmp_criteria_y)
+    });
 
     // Write powerplant-level data
     let mut plants_writer = Writer::from_path(paths.out_powerplants_file()).unwrap();

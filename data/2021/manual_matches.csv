@@ -245,6 +245,7 @@ Eemshaven A|Eemshaven B,RWE Eemshaven Centrale,,
 Eems 7|Eems 6|Eems 5|Eems 4|Eems 3|Eems 20,ENGIE Eemscentrale,,
 Elsta 1,,,"no recent ETS data: 'Dow Benelux B.V. BKG 10'"
 FLEVO 4|FLEVO 5,ENGIE Maximacentrale,,
+Maasstroom Energie,EP NL Rijnmond 2 C.V.,,renamed to Rijnmond 2 in 2023
 Maasvlakte 3,Uniper Centrale Maasvlakte,,
 NAM Schoonebeek,,,ETS 'NAM B.V. Warmtekrachtcentrale en Oliebehandelingsinstallatie Schoonebeek (WKC/OB I)' seems to be more than a power plant
 NLROTTETH__1,Power Plant Rotterdam B.V.,,
@@ -302,6 +303,3 @@ Rya KVV,Rya Kraftvärmeverk,,
 ,,,SK
 Malženice TG1,"SPP Kompresorová stanica, Trakovice",,"that ETS account belongs to ZSE, which bought the malzenice plant recently, the location of trakovice is correct, and the emissions fit perfectly for a plant that has a name-plate efficiency of 58%"
 PPC Bratislava TG1,id:103-049-2012:204,,"burns oil, gas and diesel, but Entso-E lists it as gas only -> higher than expected emissions"
-,,,
-,,,NL again
-Maasstroom Energie,EP NL Rijnmond 2 C.V.,,renamed to Rijnmond 2 in 2023
