@@ -37,7 +37,7 @@ pub(crate) fn yearly_emissions(year: u32, paths: &FilePaths) -> BTreeSet<String>
         let allocations = get_float(sheet, row, allocations_col).max(0.0);
 
         if activity_type == 20 || activity_type == 1 {
-            let country = sheet.get((row, 0)).unwrap().to_string();
+            let country = get_string(sheet, row, 0);
             if country == "GB" {
                 // They no longer report data to ETS, only old data available
                 continue;
@@ -69,9 +69,9 @@ pub(crate) fn yearly_emissions(year: u32, paths: &FilePaths) -> BTreeSet<String>
                 0.0
             };
 
-            countries.insert(country.clone());
+            countries.insert(country.to_string());
             pp_emissions.push(YearlyEmission {
-                country,
+                country: country.to_string(),
                 name: name.to_string(),
                 id: format!("{permit_id}:{installation_id}"),
                 emissions,
@@ -95,7 +95,12 @@ fn find_col(sheet: &calamine::Range<calamine::Data>, row: usize, val: &str) -> u
 }
 
 fn get_float(sheet: &calamine::Range<calamine::Data>, row: usize, col: usize) -> f64 {
-    sheet.get((row, col)).unwrap().get_float().unwrap_or(0.0)
+    // For some reason, all numbers are stored as strings in verified emissions xlsx for 2023
+    get_string(sheet, row, col).parse().unwrap_or(0.0)
+}
+
+fn get_string(sheet: &calamine::Range<calamine::Data>, row: usize, col: usize) -> &str {
+    sheet.get((row, col)).unwrap().get_string().unwrap()
 }
 
 #[derive(Debug, serde::Deserialize)]

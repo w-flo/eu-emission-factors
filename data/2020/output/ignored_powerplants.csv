@@ -34,7 +34,7 @@ FI,vaskiluoto,Vaskiluoto B3,Vaskiluoto 3-voimalaitos,0 generation,oil,0.0,0.0,0.
 FR,Manual Match #152,PROVENCE 5,Gazel Energie Generation - Centrale de Provence,uses mixed fuels,,0.0,-404.0,0.0,0.0,0.0,0.0
 FR,huchet,EMILE HUCHET 6|EMILE HUCHET 7|EMILE HUCHET 8,Gazel Energie Generation - Centrale Emile Huchet,emission factor seems implausible,gas,0.0,1964191.0,0.0,0.0,102395.0,52.13087729248327
 HU,Manual Match #179,Sajó_GT,Sajószögedi Gázturbinás erőmű,emission factor seems implausible,oil,0.0,173.11250000001203,0.0,0.0,574.0,3315.762870965182
-IE,north,North Wall CT5,ESB North Wall Generating Station,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
+IE,north,North Wall CT5,ESB - North Wall TEGP|ESB North Wall Generating Station,found 2 possibly matching ETS records,gas,0.0,0.0,0.0,0.0,0.0,0.0
 IT,Manual Match #198,UP_DUINO_1,,filtered in manual_matches.csv: only combined paper mill + power plant ETS data available,gas,0.0,24376.0,0.0,0.0,0.0,0.0
 IT,Manual Match #200,UP_IMPSUD_2,,"filtered in manual_matches.csv: ETS: 'CTE RAFFINERIA ISAB IMPIANTI SUD', but that includes some refinery emissions apparently (activity code 21)",gas,0.0,21758.0,0.0,0.0,0.0,0.0
 IT,Manual Match #208,UP_NOVEL_1,,"filtered in manual_matches.csv: ETS is 'id:IT-A-52:45', looks like heat&power is provided to industry that takes part in ETS, so emissions can't be calculated",gas,0.0,55845.0,0.0,0.0,0.0,0.0

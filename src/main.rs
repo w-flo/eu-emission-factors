@@ -223,7 +223,7 @@ fn get_key(name: &str) -> String {
         "elektrarn", // CZ
         "block", "dampf", "energie", "gud", "kraft", "turbine", // DE
         "generat", "power", "station", // EN
-        "combinado", "espana", "endesa", "generacion", "grupo", "iberdrola", // ES
+        "combinado", "electrica", "espana", "endesa", "generacion", "grupo", "iberdrola", // ES
         "voimalaitos", "lämpökeskus", // FI
         "electrique", // FR
         "gazturbinas", "eromu", // HU

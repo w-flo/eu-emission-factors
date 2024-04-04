@@ -25,3 +25,6 @@ Info: Detected similar automatic match in addition to manual match:
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1852393.7899999963 }]
 - [YearlyEmission { country: "IE", name: "Huntstown Power Station", id: "IE-GHG080:62", emissions: 775793.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "NL", name: "Rijnmond 1", eic: "49W0000000001136", fuel: "gas", output: 738826.290000006 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-B", eic: "49W0000000001144", fuel: "gas", output: 0.0 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-X", eic: "49W0000000001152", fuel: "gas", output: 0.0 }]
+- [YearlyEmission { country: "NL", name: "EP NL Rijnmond 1 B.V.", id: "NL-200400241:189", emissions: 280189.0, allocations: 0.0, sigma: 0.0 }]

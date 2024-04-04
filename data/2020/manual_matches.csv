@@ -122,10 +122,10 @@ P.NUEVO 3,C.T. - Puente Nuevo,,
 PGR5TG1|PGR5TG2|PGR5TV,"Endesa Generación, S.A. - As Pontes",,
 SAGU1|SAGU2|SAGU3,CCC. - Sagunto,,
 SBO3,CCC Sabón,,
-SOTO 5,C.T. Ciclo Combinado de Soto de Ribera 5,,
+SOTO 5,C.T. del Ciclo Combinado Soto de Ribera Grupo 5,,
 SOTO RIB 3,"Central Térmica de Soto de Ribera 1, 2 y 3",,
 SRI4,Central Térmica de Ciclo combinado Soto de Ribera4,,
-S.ROQUE 2,"Endesa Ciclos Combinados, S.L. - San Roque 2",,
+S.ROQUE 2,C. Térmica Ciclo Combinado de San Roque-(Grupo 2),,
 TAPOWER,"Tarragona Power, S.L. – CCC Tarragona Power",,
 UFARRU1|UFARRU2,"ContourGlobal La Rioja, S.L",,
 ,,,
@@ -143,7 +143,7 @@ Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-vo
 ,,,
 ,,,FR
 AMFARD14|AMFARD15,Usine de Gonfreville (UGO),,
-BLENOD 5,id:6200067:451,,
+BLENOD 5,id:06200067:451,,
 BOUCHAIN 7,EDF Cycle Combiné Gaz de Bouchain,,
 Croix-de-Metz,TOTALENERGIES - Centrale Electrique Toul,,
 DK6-TG1|DK6-TV1|DK6-TG2|DK6-TV2,ETF - CENTRALE DK6,,"high emissions, burns operating gas from steel factory"
@@ -242,7 +242,7 @@ VE3 TG-1|VE3 TG-2,Termofikacinė elektrinė Nr. 3 (E-3),,
 "Block-1, Gas Turbine, RTEC2|Block-1, Steam Turbine, RTEC2|Block-2, Gas Turbine, RTEC2|Block-2, Steam Turbine, RTEC2",id:LV-RIT-R-II-SEG-07:7,,
 ,,,
 ,,,NL
-Amer 9,Amercentrale,plausible-emission-factor-range:100-1500,"uses lots of biomass"
+Amer 9,RWE Amercentrale,plausible-emission-factor-range:100-1500,"uses lots of biomass"
 Claus C,Energie Productie Clauscentrale,,
 Delesto 2,,,seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.'
 Diemen 33|Diemen 34,Vattenfall Centrale Diemen,,
@@ -308,3 +308,6 @@ Rya KVV,Rya Kraftvärmeverk,,
 ,,,SK
 Malženice TG1,"SPP Kompresorová stanica, Trakovice",,"that ETS account belongs to ZSE, which bought the malzenice plant recently, the location of trakovice is correct, and the emissions fit perfectly for a plant that has a name-plate efficiency of 58%"
 PPC Bratislava TG1,id:103-049-2012:204,,"burns oil, gas and diesel, but Entso-E lists it as gas only -> higher than expected emissions"
+,,,
+,,,NL again
+Maasstroom Energie,EP NL Rijnmond 2 C.V.,,renamed to Rijnmond 2 in 2023

@@ -26,5 +26,8 @@ Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1592129.634999981 }]
 - [YearlyEmission { country: "IE", name: "Huntstown Power Station", id: "IE-GHG080:62", emissions: 657649.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "NL", name: "Rijnmond 1", eic: "49W0000000001136", fuel: "gas", output: 2985301.919999968 }]
+- [YearlyEmission { country: "NL", name: "EP NL Rijnmond 1 B.V.", id: "NL-200400241:189", emissions: 1103148.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "PL", name: "Stalowa Wola 3 B7", eic: "19W000000000194S", fuel: "coal", output: 136188.7200000001 }, YearlyGeneration { country: "PL", name: "Stalowa Wola 3 B8", eic: "19W000000000196O", fuel: "coal", output: 40986.80999999995 }]
 - [YearlyEmission { country: "PL", name: "TAURON Wytwarzanie SA O. Elektrownia Stalowa Wola", id: "PL-0008-05:8", emissions: 221328.0, allocations: 36984.0, sigma: 0.0 }]

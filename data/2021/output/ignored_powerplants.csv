@@ -30,7 +30,7 @@ FI,vaskiluoto,Vaskiluoto B3,Vaskiluoto 3-voimalaitos,0 generation,oil,0.0,0.0,0.
 FR,Manual Match #141,AMFARD14|AMFARD15,Usine de Gonfreville (UGO),emission factor seems implausible,gas,0.9793106342880538,1225747.0,6624182.99869277,734193.0335366644,310527.96646333556,253.33773320541317
 FR,huchet,EMILE HUCHET 6|EMILE HUCHET 7|EMILE HUCHET 8,Gazel Energie Generation - Centrale Emile Huchet,uses mixed fuels,,0.0,2961653.0,0.0,0.0,0.0,0.0
 GR,Manual Match #154,AMYNDEO1|AMYNDEO2,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΜΥΝΤΑΙΟ ΦΛΩΡΙΝΑΣ,0 generation,lignite,0.0,0.0,0.0,0.0,0.0,0.0
-IE,north,North Wall CT5,ESB North Wall Generating Station,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
+IE,north,North Wall CT5,ESB - North Wall TEGP|ESB North Wall Generating Station,found 2 possibly matching ETS records,gas,0.0,0.0,0.0,0.0,0.0,0.0
 IT,Manual Match #194,UP_DUINO_1,,filtered in manual_matches.csv: only combined paper mill + power plant ETS data available,gas,0.0,28873.0,0.0,0.0,0.0,0.0
 IT,Manual Match #205,UP_NPWRLVORNO_7,,filtered in manual_matches.csv: only refinery ETS data available,gas,0.0,103800.0,0.0,0.0,0.0,0.0
 IT,Manual Match #210,UP_PMGLNDARCO_1,ACERRA - POMIGLIANO,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0

@@ -3,7 +3,7 @@ Info: Detected similar automatic match in addition to manual match:
 - [YearlyEmission { country: "AT", name: "Verbund FHKW Mellach", id: "EEW009:99", emissions: 1795.0, allocations: 8843.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "KW Boxberg Block N", eic: "11WD8BOXB1L---N8", fuel: "lignite", output: 3677286.25 }, YearlyGeneration { country: "DE", name: "KW Boxberg Block P", eic: "11WD8BOXB1L---P4", fuel: "lignite", output: 3222208.25 }]
-- [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 7996566.0, allocations: 5483.0, sigma: 0.0 }]
+- [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 7996566.0, allocations: 6054.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "Irsching 5", eic: "11WD2IRG5000062N", fuel: "gas", output: 1693989.6899999923 }]
 - [YearlyEmission { country: "DE", name: "Kraftwerk Irsching", id: "14310-0651:1207", emissions: 663669.0, allocations: 0.0, sigma: 0.0 }]
@@ -25,3 +25,6 @@ Info: Detected similar automatic match in addition to manual match:
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1008885.0899999999 }]
 - [YearlyEmission { country: "IE", name: "Huntstown Power Station", id: "IE-GHG080:62", emissions: 735149.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "NL", name: "Rijnmond REC-A", eic: "49W0000000001136", fuel: "gas", output: 349419.1200000003 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-B", eic: "49W0000000001144", fuel: "gas", output: 300363.5000000002 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-X", eic: "49W0000000001152", fuel: "gas", output: 327746.2499999999 }]
+- [YearlyEmission { country: "NL", name: "EP NL Rijnmond 1 B.V.", id: "NL-200400241:189", emissions: 374973.0, allocations: 0.0, sigma: 0.0 }]
