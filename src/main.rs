@@ -1,6 +1,7 @@
 use std::{
     collections::{BTreeMap, BTreeSet},
     fs::File,
+    io::{stdin, BufRead},
     path::{Path, PathBuf},
 };
 
@@ -283,7 +284,12 @@ fn calculate_emission_factors(year: u32, matches: &mut [Match], paths: &FilePath
     let mut csv_reader = load_csv_file(&paths.degree_days_file(), '\t');
     let latest_year: u32 = csv_reader.headers().unwrap().get(1).unwrap().parse().unwrap();
 
-    assert!(latest_year >= year, "degree days database does not include data for year {year}!");
+    if latest_year < year {
+        println!("WARNING! Degree days database does not include data for year {year}.");
+        println!("Ignoring this will lead to even worse data for combined heat and power plants.");
+        println!("To continue anyway, press enter.");
+        stdin().lock().lines().next().unwrap().unwrap();
+    }
 
     for result in csv_reader.records() {
         let record = result.unwrap();
@@ -311,7 +317,8 @@ fn calculate_emission_factors(year: u32, matches: &mut [Match], paths: &FilePath
     for m in matches.iter_mut().filter(|m| !m.is_ignored()) {
         // average 2014-2018
         let baseline_degdays = degdays.get(&m.country).unwrap().iter().take(5).sum::<f64>() / 5.0;
-        let current_degdays = degdays.get(&m.country).unwrap().get(year as usize - 2014).unwrap();
+        let current_degdays =
+            degdays.get(&m.country).unwrap().get(year as usize - 2014).unwrap_or(&baseline_degdays);
 
         let allocation_sum: f64 = m.emission.iter().map(|g| g.allocations).sum();
         let emission_sum: f64 = m.emission.iter().map(|g| g.emissions).sum();
