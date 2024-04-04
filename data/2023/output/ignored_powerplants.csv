@@ -1,0 +1,77 @@
+country,name,generation,emission,ignore_reason,fuel,sigma,generation_el,generation_heat,emissions_heat,emissions_el,emission_factor
+AT,Manual Match,Block 07 Linz,,filtered in manual_matches.csv: ETS data seems to be missing,gas,0.0,1018801.0500000095,0.0,0.0,0.0,0.0
+AT,Manual Match,Lau GuD,Wien Energie - KW Leopoldau,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
+AT,Manual Match,Sim3_DT,,"filtered in manual_matches.csv: missing gas turbine data, ETS is 'Wien Energie - KW Simmering 3'",gas,0.0,227973.75,0.0,0.0,0.0,0.0
+AT,riedersbach,KW Riedersbach 2 G2,Energie AG Kraftwerk Riedersbach,0 generation,coal,0.0,0.0,0.0,0.0,0.0,0.0
+BE,Manual Match,INESCO WKK,,"filtered in manual_matches.csv: probably provides steam/heat to ETS industry, ETS name is 'INEOS Oxide Utilities'",gas,0.0,62557.260000000104,0.0,0.0,0.0,0.0
+BE,Manual Match,Scheldelaan Exxonmobil,,filtered in manual_matches.csv: no separate ETS record for power plant,gas,0.0,702216.3500000059,0.0,0.0,0.0,0.0
+BE,marcinelle,Marcinelle Energie (Carsid),Centrale C.C.G.T. Marcinelle Energie,0 emissions,gas,0.0,819888.7000000003,0.0,0.0,0.0,0.0
+BG,Manual Match,TPP_MI3_G1|TPP_MI3_G2|TPP_MI3_G3|TPP_MI3_G4|TPP_MARITSA_3_G1,TEC ContourGlobal Maritsa East 3,0 emissions,lignite,0.0,4311305.0,0.0,0.0,0.0,0.0
+BG,Manual Match,TPP_RUSE_G4,,"filtered in manual_matches.csv: probably missing some <100MW generation units, ETS name is 'Toplofikatsia RuseAD TEC Ruse Iztok'.",coal,0.0,0.0,0.0,0.0,0.0,0.0
+BG,bobov,TPP_BOBOV_DOL_G1|TPP_BOBOV_DOL_G2|TPP_BOBOV_DOL_G3,TPP Bobov Dol,0 emissions,lignite,0.0,1876807.0,0.0,0.0,0.0,0.0
+DE,,KW5,,seems to be a meaningless generation unit name,gas,0.0,31984.510000000082,0.0,0.0,0.0,0.0
+DE,Manual Match,GKB Mittelsbueren GuD,GuD,0 emissions,gas,0.0,4020.8,0.0,0.0,0.0,0.0
+DE,Manual Match,GuD Dormagen,,"filtered in manual_matches.csv: provides steam for local industry which takes part in ETS, so heat emission calculation fails. ETS is 'Kraftwerk Dormagen'",gas,0.0,907635.6200000036,0.0,0.0,0.0,0.0
+DE,Manual Match,GuD-Anlage-HKW-Merkenich,Heizkraftwerk Merkenich,0 generation,gas,0.21868322931343637,0.0,0.0,0.0,0.0,0.0
+DE,Manual Match,GuD-Block,,"filtered in manual_matches.csv: provides heat for local industry which takes part in ETS, so heat emission calculation fails. ETS is 'Gemeinschaftskraftwerk Burghausen'",gas,0.0,166217.49999999965,0.0,0.0,0.0,0.0
+DE,Manual Match,HKW West Block 4,,"filtered in manual_matches.csv: HKW West, Frankfurt - coal blocks (2 + 3) are <100MW, so missing from ENTSO-E. ETS is id:14310-0512:1078",gas,0.0,168530.8299999994,0.0,0.0,0.0,0.0
+DE,Manual Match,IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,filtered in manual_matches.csv: only combined refinery + power plant ETS data is available,oil,0.0,1165582.25,0.0,0.0,0.0,0.0
+DE,Manual Match,KW Hastedt BHKW,BHKW Hastedt,0 emissions,gas,0.0,78185.20000000001,0.0,0.0,0.0,0.0
+DE,Manual Match,KW Hastedt Block 15,Kraftwerk Hastedt Block 15,0 emissions,coal,0.38714332948726576,525542.9000000003,0.0,0.0,0.0,0.0
+DE,Manual Match,KW Lünen Block 1,Kohlekraftwerk Lünen - TKL,0 emissions,coal,0.0,2585124.9699999765,0.0,0.0,0.0,0.0
+DE,Manual Match,Knapsack 2,Knapsack II,emission factor seems implausible,gas,0.0,84491.5,0.0,0.0,272113.0,3220.5961546427748
+DE,Manual Match,Kraftwerk Wahlheim GT D,,"filtered in manual_matches.csv: ETS is 'Kraftwerk Walheim', apparent typo in generation name. Coal blocks are missing from Entso-E data, this is just the oil-fired gas turbine.",oil,0.0,13953.139999999994,0.0,0.0,0.0,0.0
+DE,Manual Match,Küstenkraftwerk,Gasmotorenheizkraftwerk,emission factor seems implausible,gas,0.0,525790.2800000088,835011.935163267,99940.20852056632,143840.79147943368,273.57065535603147
+DE,Manual Match,Sued GuD1 GT2|Sued GuD1 GT3|Sued GuD2 DT60|Sued GuD2 GT61|Sued GuD2 GT62,Heizkraftwerk Süd GuD,emission factor seems implausible,gas,0.0,813403.77,1239635.4123611578,154695.0046029495,232011.9953970505,285.23594794384894
+DE,scholven,Scholven 1|Scholven B|Scholven C,Kraftwerk Scholven,uses mixed fuels,,0.0,1340264.1600000109,0.0,0.0,0.0,0.0
+DE,tiefstack,HKW Tiefstack Block 2|HKW Tiefstack GuD,Heizkraftwerk Tiefstack,uses mixed fuels,,0.0,873885.25,0.0,0.0,0.0,0.0
+DK,Manual Match,Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,emission factor seems implausible,gas,0.0,197925.55000000028,312867.3670184548,38558.71248519728,55755.28751480272,281.6982825855613
+DK,asnaesvaerket,Asnaesvaerket 2|Asnaesvaerket 5,Asnæsværket,emission factor seems implausible,coal,0.5086467705485999,415.2399999999926,280841.3195186164,736.5109173994754,2.4890826005246254,5.994322802535088
+DK,studstrupvaerket,Studstrupvaerket 3|Studstrupvaerket 4,"DONG Energy Generation A/S, Studstrupværket",uses mixed fuels,,0.0,1228977.3200000287,0.0,0.0,0.0,0.0
+FI,Manual Match,Kristiina B1|Kristiina B2,Kristiinan voimalaitos,0 generation,coal,0.0,0.0,0.0,0.0,0.0,0.0
+FI,Manual Match,Kymijärvi B1,Kymijärven voimalaitos,emission factor seems implausible,coal,0.024782211949189243,23139.730000000043,674965.66438503,10644.86079184098,834.1392081590202,36.04792312438471
+FI,Manual Match,Suomenoja 2 GT,,filtered in manual_matches.csv: missing two <100MW generation units,gas,0.0,72932.15999999992,0.0,0.0,0.0,0.0
+FI,Manual Match,Tahkoluoto B1,Tahkoluodon voimalaitos,0 generation,coal,0.0,0.0,0.0,0.0,0.0,0.0
+FI,Manual Match,Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,emission factor seems implausible,gas,0.0,180203.33000000514,1003894.2740199277,85289.21639418702,34993.783605812976,194.1905491192198
+FI,vaskiluoto,Vaskiluoto B3,Vaskiluoto 3-voimalaitos,0 generation,oil,0.0,0.0,0.0,0.0,0.0,0.0
+FR,Manual Match,AMFARD14|AMFARD15,,"filtered in manual_matches.csv: ETS might be 'Usine de Gonfreville (UGO)', but not really sure - seems to be part of a chemical plant, provides lots of heat",gas,0.0,1296767.0,0.0,0.0,0.0,0.0
+FR,brennilis,BRENNILIS 3|BRENNILIS 1|BRENNILIS 2,EDF TAC DE BRENNILIS,0 emissions,oil,0.0,50895.0,0.0,0.0,0.0,0.0
+FR,havre,HAVRE 4,EDF Centrale Le Havre,0 emissions,coal,0.0,7085.0,0.0,0.0,0.0,0.0
+FR,stouen,CPCU-StOuen-GP,,found 0 possibly matching ETS records,gas,0.0,106728.0,0.0,0.0,0.0,0.0
+GR,Manual Match,AG_NIKOLAOS2,,"filtered in manual_matches.csv: new powerplant, ETS apparently still missing",gas,0.0,1380947.0,0.0,0.0,0.0,0.0
+GR,Manual Match,MEGALOPOLI3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ Α ΜΟΝΑΔΑ ΙΙΙ,0 generation,lignite,0.0,0.0,0.0,0.0,0.0,0.0
+GR,Manual Match,PTOLEMAIDA5,,"filtered in manual_matches.csv: new power plant, ETS data apparently still missing",lignite,0.0,1712368.0,0.0,0.0,0.0,0.0
+HU,Manual Match,Sajó_GT,Sajószögedi Gázturbinás erőmű,emission factor seems implausible,oil,0.0,780.2374999996198,0.0,0.0,2717.0,3482.2730258431875
+HU,lorigtae,LORIGTae,,found 0 possibly matching ETS records,oil,0.0,2100.134999999985,0.0,0.0,0.0,0.0
+IE,Manual Match,North Wall CT5,ESB - North Wall TEGP,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
+IE,tarbert,Tarbert Unit 3|Tarbert Unit 4|Tarbert Unit 1|Tarbert Unit 2,Tarbert Generating Station,emission factor seems implausible,oil,0.0,506.37000000000006,0.0,0.0,2360.0,4660.623654639888
+IT,Manual Match,UP_DUINO_1,,filtered in manual_matches.csv: only combined paper mill + power plant ETS data available,gas,0.0,11888.0,0.0,0.0,0.0,0.0
+IT,Manual Match,UP_ISABENERGY_2|UP_ISABENERGY_3,IMPIANTO IGCC,uses mixed fuels,,0.35513674211005575,2248392.0,0.0,0.0,0.0,0.0
+IT,Manual Match,UP_NPWRLVORNO_7,,filtered in manual_matches.csv: only refinery ETS data available,gas,0.0,2590.0,0.0,0.0,0.0,0.0
+IT,Manual Match,UP_PMGLNDARCO_1,ACERRA - POMIGLIANO,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
+IT,Manual Match,UP_TNRSDLMNSP_1,,"filtered in manual_matches.csv: Tenaris Dalmine steel plant, no ETS data for power plant only",gas,0.0,102637.0,0.0,0.0,0.0,0.0
+IT,celano,UP_CELANO_1,CELANO,0 emissions,gas,0.0,1152.0,0.0,0.0,0.0,0.0
+IT,mntaltocle,UP_MNTALTOCLE_1,,found 0 possibly matching ETS records,gas,0.0,61125.0,0.0,0.0,0.0,0.0
+IT,montalto,UP_MONTALTO_1|UP_MONTALTO_2|UP_MONTALTO_3,CENTRALE TERMOELETTRICA DI MONTALTO DI CASTRO,emission factor seems implausible,gas,0.0,1814.0,0.0,0.0,39255.0,21640.02205071665
+IT,trmnmrscle,UP_TRMNMRSCLE_43|UP_TRMNMRSCLE_53,,found 0 possibly matching ETS records,gas,0.0,54659.0,0.0,0.0,0.0,0.0
+LT,Manual Match,VE3 TG-1|VE3 TG-2,Termofikacinė elektrinė Nr. 3 (E-3),0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
+LV,Manual Match,"Block-1, Gas Turbine, RTEC2|Block-1, Steam Turbine, RTEC2|Block-2, Gas Turbine, RTEC2|Block-2, Steam Turbine, RTEC2",Installation 7,0 emissions,gas,0.0,1180924.0,0.0,0.0,0.0,0.0
+NL,Manual Match,Delesto 2,,filtered in manual_matches.csv: seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.',gas,0.0,257063.37000000005,0.0,0.0,0.0,0.0
+NL,Manual Match,Elsta 1,,filtered in manual_matches.csv: no recent ETS data: 'Dow Benelux B.V. BKG 10',gas,0.0,1094657.9699999972,0.0,0.0,0.0,0.0
+NL,Manual Match,NAM Schoonebeek,,filtered in manual_matches.csv: ETS 'NAM B.V. Warmtekrachtcentrale en Oliebehandelingsinstallatie Schoonebeek (WKC/OB I)' seems to be more than a power plant,gas,0.0,0.0,0.0,0.0,0.0,0.0
+NL,Manual Match,Swentibold 1,,filtered in manual_matches.csv: no recent ETS data,gas,0.0,833676.4900000066,0.0,0.0,0.0,0.0
+NO,Manual Match,Evm G1 Therm,,filtered in manual_matches.csv: no ETS data,gas,0.0,937.9,0.0,0.0,0.0,0.0
+PL,Manual Match,Dolna Odra B5|Dolna Odra B6|Dolna Odra B7|Dolna Odra B8,PGE GiEK S.A. Oddział Zespół Elektrowni Dolna Odra,0 emissions,coal,0.0,2201977.9700000007,0.0,0.0,0.0,0.0
+PL,Manual Match,EC Rzeszów B1,Oddział Elektrociepłownia Rzeszów I,0 emissions,gas,0.0368179296356723,274416.79,0.0,0.0,0.0,0.0
+PL,Manual Match,Lódz-4 B03,Elektrociepłownia Zakład EC-4 Veolia Energia Łódź,0 emissions,coal,0.030777056693510288,329501.8699999989,0.0,0.0,0.0,0.0
+PL,Manual Match,Patnów 1 B1|Patnów 1 B2|Patnów 1 B5,ELEKTROWNIA PĄTNÓW,0 emissions,lignite,0.0,647885.6199999992,0.0,0.0,0.0,0.0
+PL,Manual Match,Patnów 2 B9,ELEKTROWNIA PĄTNÓW II,0 emissions,lignite,0.0,678057.8999999983,0.0,0.0,0.0,0.0
+PL,Manual Match,Plock B01,ELEKTROCIEPŁOWNIA,0 emissions,gas,0.0,3217544.830000004,0.0,0.0,0.0,0.0
+PL,Manual Match,Polaniec B1|Polaniec B2|Polaniec B3|Polaniec B4|Polaniec B5|Polaniec B6|Polaniec B7|Polaniec 2 blok 9,Instalacja do spalania paliw,uses mixed fuels,,0.9201326499949202,6759273.750000001,0.0,0.0,0.0,0.0
+PL,Manual Match,Siersza B1|Siersza B2,TAURON Wytw. SA O. Elektrownia Siersza w Trzebini,0 emissions,coal,0.0,608475.7899999997,0.0,0.0,0.0,0.0
+PL,Manual Match,Zielona Góra BGP,ELEKTROCIEPŁOWNIA ZIELONA GÓRA S.A.,0 emissions,gas,0.050653685657887124,1059325.9600000023,0.0,0.0,0.0,0.0
+PL,gryfino,Gryfino Blok 9,,found 0 possibly matching ETS records,gas,0.0,0.0,0.0,0.0,0.0,0.0
+PL,opole,Opole B1|Opole B2|Opole B3|Opole B4|Opole B5|Opole B6,PGE GiEK S.A. Oddział Elektrownia Opole,0 emissions,coal,0.0,10497797.490000017,0.0,0.0,0.0,0.0
+PL,wroclaw,Wroclaw Bl2|Wroclaw Bl3,ELEKTROCIEPŁOWNIA WROCŁAW,0 emissions,coal,0.0,520304.8200000008,0.0,0.0,0.0,0.0
+RO,Manual Match,CCCCBrazi_BraziST_CA|CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,"filtered in manual_matches.csv: has 5 <100MW generation units, ETS is 'Centrala de Cogenerare cu Ciclu Combinat- Brazi'",gas,0.0,4205348.069999995,0.0,0.0,0.0,0.0
+RO,Manual Match,CetGalati_GALA5_CA|CetGalati_GALA3_CA,SC ELECTROCENTRALE GALATI SA,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0

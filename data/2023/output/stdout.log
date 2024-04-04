@@ -1,0 +1,42 @@
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "AT", name: "FHKW Mellach", eic: "14W-WML-M1-----G", fuel: "gas", output: 4023.250000000002 }]
+- [YearlyEmission { country: "AT", name: "Verbund FHKW Mellach", id: "EEW009:99", emissions: 6168.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "DE", name: "KW Boxberg Block N", eic: "11WD8BOXB1L---N8", fuel: "lignite", output: 3207327.5 }, YearlyGeneration { country: "DE", name: "KW Boxberg Block P", eic: "11WD8BOXB1L---P4", fuel: "lignite", output: 2018278.25 }]
+- [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 6222138.0, allocations: 5895.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "DE", name: "KW Hastedt BHKW", eic: "11W0-0000-0494-T", fuel: "gas", output: 78185.20000000001 }]
+- [YearlyEmission { country: "DE", name: "BHKW Hastedt", id: "14310-2016:217340", emissions: 0.0, allocations: 0.0, sigma: 0.0 }, YearlyEmission { country: "DE", name: "Kraftwerk Hastedt Block 14", id: "14310-0692:1248", emissions: 0.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "DE", name: "GUD_HERNE_6", eic: "11W0-0000-0245-J", fuel: "gas", output: 367417.2899999997 }]
+- [YearlyEmission { country: "DE", name: "GuD Herne", id: "14310-1975:215100", emissions: 844146.0, allocations: 1581.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "DE", name: "Irsching 3", eic: "11WD2IRG30000606", fuel: "gas", output: 16153.989999999998 }, YearlyGeneration { country: "DE", name: "Irsching 5", eic: "11WD2IRG5000062N", fuel: "gas", output: 1432403.019999998 }]
+- [YearlyEmission { country: "DE", name: "Kraftwerk Irsching", id: "14310-0651:1207", emissions: 617362.0, allocations: 0.0, sigma: 0.0 }]
+Possibly missing generation units for an existing manual match:
+- [YearlyGeneration { country: "DE", name: "KMW_KW2GT", eic: "11W0-0000-0196-1", fuel: "gas", output: 3.09 }, YearlyGeneration { country: "DE", name: "KMW_KW2DT", eic: "11W0-0000-0197-Z", fuel: "gas", output: 46436.020000000004 }]
+- []
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "DE", name: "Knapsack 1", eic: "11WD7KWKN-KW-EEN", fuel: "gas", output: 591271.6999999986 }]
+- [YearlyEmission { country: "DE", name: "Gas und Dampfturbinen Kraftanlage Knapsack", id: "14310-1410:1888", emissions: 377368.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "ES", name: "ACECA4", eic: "18WACE4-12345-C3", fuel: "gas", output: 307691.69999999955 }]
+- [YearlyEmission { country: "ES", name: "CCC-Aceca", id: "ES074501000404:325", emissions: 130390.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "ES", name: "BESOS 4", eic: "18WBES4-12345-CY", fuel: "gas", output: 1140945.6000000015 }]
+- [YearlyEmission { country: "ES", name: "CCC - Besos", id: "ES080801000516:432", emissions: 443796.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "ES", name: "S.ROQUE 1", eic: "18WSROQ1-1234-CJ", fuel: "gas", output: 362578.10000000085 }]
+- [YearlyEmission { country: "ES", name: "CCC.- San Roque 1", id: "ES011101000050:48", emissions: 169297.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "FI", name: "Vaskiluoto B3", eic: "44W-T-LV-1000078", fuel: "oil", output: 0.0 }]
+- [YearlyEmission { country: "FI", name: "Vaskiluoto 3-voimalaitos", id: "FI-60831104:4", emissions: 0.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1283189.079999997 }]
+- [YearlyEmission { country: "IE", name: "Huntstown Power Station", id: "IE-GHG080:62", emissions: 662549.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "NL", name: "Rijnmond REC-A", eic: "49W0000000001136", fuel: "gas", output: 424077.32000000007 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-B", eic: "49W0000000001144", fuel: "gas", output: 418028.54000000015 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-X", eic: "49W0000000001152", fuel: "gas", output: 434871.1500000011 }]
+- [YearlyEmission { country: "NL", name: "EP NL Rijnmond 1 B.V.", id: "NL-200400241:189", emissions: 512489.0, allocations: 0.0, sigma: 0.0 }]
+WARNING! Degree days database does not include data for year 2023.
+Ignoring this will lead to even worse data for combined heat and power plants.
+To continue anyway, press enter.
