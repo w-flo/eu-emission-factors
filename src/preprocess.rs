@@ -3,7 +3,7 @@ use std::{
     fs::File,
 };
 
-use calamine::{Reader, Xlsx};
+use calamine::{DataType, Reader, Xlsx};
 use csv::{ReaderBuilder, Writer};
 use zip::ZipArchive;
 
@@ -90,11 +90,11 @@ pub(crate) fn yearly_emissions(year: u32, paths: &FilePaths) -> BTreeSet<String>
     countries
 }
 
-fn find_col(sheet: &calamine::Range<calamine::DataType>, row: usize, val: &str) -> usize {
+fn find_col(sheet: &calamine::Range<calamine::Data>, row: usize, val: &str) -> usize {
     (0..1000).find(|&col| sheet.get((row, col)).unwrap().get_string() == Some(val)).unwrap()
 }
 
-fn get_float(sheet: &calamine::Range<calamine::DataType>, row: usize, col: usize) -> f64 {
+fn get_float(sheet: &calamine::Range<calamine::Data>, row: usize, col: usize) -> f64 {
     sheet.get((row, col)).unwrap().get_float().unwrap_or(0.0)
 }
 
