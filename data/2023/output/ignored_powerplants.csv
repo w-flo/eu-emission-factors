@@ -11,6 +11,7 @@ BG,Manual Match,TPP_RUSE_G4,,"filtered in manual_matches.csv: probably missing s
 BG,bobov,TPP_BOBOV_DOL_G1|TPP_BOBOV_DOL_G2|TPP_BOBOV_DOL_G3,TPP Bobov Dol,0 emissions,lignite,0.0,1876807.0,0.0,0.0,0.0,0.0
 DE,,KW5,,seems to be a meaningless generation unit name,gas,0.0,31984.510000000082,0.0,0.0,0.0,0.0
 DE,Manual Match,GKB Mittelsbueren GuD,GuD,0 emissions,gas,0.0,4020.8,0.0,0.0,0.0,0.0
+DE,Manual Match,GUD_HERNE_6,GuD Herne,emission factor seems implausible,gas,0.0,367417.2899999997,38105.1773558414,36639.41473936304,807506.585260637,2197.7914682802157
 DE,Manual Match,GuD Dormagen,,"filtered in manual_matches.csv: provides steam for local industry which takes part in ETS, so heat emission calculation fails. ETS is 'Kraftwerk Dormagen'",gas,0.0,907635.6200000036,0.0,0.0,0.0,0.0
 DE,Manual Match,GuD-Anlage-HKW-Merkenich,Heizkraftwerk Merkenich,0 generation,gas,0.21868322931343637,0.0,0.0,0.0,0.0,0.0
 DE,Manual Match,GuD-Block,,"filtered in manual_matches.csv: provides heat for local industry which takes part in ETS, so heat emission calculation fails. ETS is 'Gemeinschaftskraftwerk Burghausen'",gas,0.0,166217.49999999965,0.0,0.0,0.0,0.0

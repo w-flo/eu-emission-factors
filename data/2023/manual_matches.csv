@@ -56,6 +56,7 @@ GuD Dormagen,,,"provides steam for local industry which takes part in ETS, so he
 GuD-Anlage-HKW-Merkenich,Heizkraftwerk Merkenich,,
 eic:11WD2BURG000145R,,,"provides heat for local industry which takes part in ETS, so heat emission calculation fails. ETS is 'Gemeinschaftskraftwerk Burghausen'"
 HERNE_4,Heizkraftwerk Herne,,
+GUD_HERNE_6,GuD Herne,plausible-emission-factor-range:300-600,"new, modern CHP plant burning natural gas. emission factor >2000 not plausible, ENTSO-E is missing generated electricity from first year of operation."
 HKW Altbach/Deizisau 2,Kraftwerk Altbach,,
 HKW Nord GuD Nord,id:14310-0904:1444,,Leipzig
 HKW IIIB,HKW Duisburg|HKW IIIA GT,,"Duisburg-Wanheim HKW III. ETS name is confusing, looks like it's for both A and B (but A is only 40MW)"
