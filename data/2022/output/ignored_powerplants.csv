@@ -64,4 +64,4 @@ PL,turow,Turów B01|Turów B02|Turów B03|Turów B04|Turów B05|Turów B06|Turó
 RO,Manual Match #287,CCCCBrazi_BraziST_CA|CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,"filtered in manual_matches.csv: has 5 <100MW generation units, ETS is 'Centrala de Cogenerare cu Ciclu Combinat- Brazi'",gas,0.0,3171863.2299999874,0.0,0.0,0.0,0.0
 RO,Manual Match #289,CetGalati_GALA5_CA|CetGalati_GALA3_CA,SC ELECTROCENTRALE GALATI SA,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 SE,Manual Match #295,Gasturbiner Halmstad G12,,filtered in manual_matches.csv: ETS data seems to be missing,oil,0.0,2132.13,0.0,0.0,0.0,0.0
-SE,vartaverket,KVV1 Värtaverket|KVV8 Värtaverket,Värtaverket,uses mixed fuels,,0.0,594130.800000002,0.0,0.0,0.0,0.0
+SE,vaertaverket,KVV1 Värtaverket|KVV8 Värtaverket,Värtaverket,uses mixed fuels,,0.0,594130.800000002,0.0,0.0,0.0,0.0
