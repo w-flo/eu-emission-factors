@@ -141,7 +141,7 @@ BOUCHAIN 7,EDF Cycle Combiné Gaz de Bouchain,,
 CPCU-CogeVitry–GP,CPCU VITRY,,
 Croix-de-Metz,TOTALENERGIES - Centrale Electrique Toul,,
 DK6-TG1|DK6-TV1|DK6-TG2|DK6-TV2,ETF - CENTRALE DK6,,"high emissions, burns operating gas from steel factory"
-FR_LANDIVISIAUGU,CEB - CENTRALE ELECTRIQUE DE LANDIVISIAU,plausible-emission-factor-range:300-600,"new, modern CHP plant burning natural gas. emission factor >2000 not plausible, maybe missing ETS allocation (heat) data in first year of operation."
+FR_LANDIVISIAUGU,CEB - CENTRALE ELECTRIQUE DE LANDIVISIAU,,
 FR-GA-MORANT1,TOTALENERGIES CENTRALE ELECTRIQUE BAYET,,
 GENNEVILLIERS 1,EDF TAC de Gennevilliers,,
 Saint_Avold_7|Saint_Avold_8,TE - Saint Avold Kernaman,,Renamed from EMILE HUCHET 7|EMILE HUCHET 8 (gas-powered blocks) in 2023
