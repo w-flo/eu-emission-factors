@@ -23,6 +23,9 @@ Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "FI", name: "Vaskiluoto B3", eic: "44W-T-LV-1000078", fuel: "oil", output: 0.0 }]
 - [YearlyEmission { country: "FI", name: "Vaskiluoto 3-voimalaitos", id: "FI-60831104:4", emissions: 0.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "FR", name: "EMILE HUCHET 6", eic: "17W100P100P0005Z", fuel: "coal", output: 84203.0 }]
+- [YearlyEmission { country: "FR", name: "Gazel Energie Generation - Centrale Emile Huchet", id: "06207853:1133", emissions: 102395.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1592129.634999981 }]
 - [YearlyEmission { country: "IE", name: "Huntstown Power Station", id: "IE-GHG080:62", emissions: 657649.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:

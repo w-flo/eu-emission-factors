@@ -11,7 +11,7 @@ Sim3|Sim3_DT,,,"missing gas turbine data, ETS is 'Wien Energie - KW Simmering 3'
 ,,,
 ,,,BE
 EDF Luminus Seraing GT1|EDF Luminus Seraing GT2|SERAING TV,EDFL - Seraing,,
-INESCO WKK,INEOS Oxide Utilities,,
+INESCO WKK,,,"probably provides steam/heat to ETS industry, ETS name is 'INEOS Oxide Utilities'"
 RINGVAART STEG,EDFL - Centrale Buitenring Wondelgem Gent,,
 SAINT-GHISLAIN STEG,Electrabel Baudour,,
 Scheldelaan Exxonmobil,,,"no separate ETS record for power plant"
@@ -142,11 +142,12 @@ Vaskiluoto B2,Vaskiluoto 2 -voimalaitos,,
 Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,,
 ,,,
 ,,,FR
-AMFARD14|AMFARD15,Usine de Gonfreville (UGO),,
+AMFARD14|AMFARD15,,,"ETS might be 'Usine de Gonfreville (UGO)', but not really sure - seems to be part of a chemical plant, provides lots of heat"
 BLENOD 5,id:06200067:451,,
 BOUCHAIN 7,EDF Cycle Combiné Gaz de Bouchain,,
 Croix-de-Metz,TOTALENERGIES - Centrale Electrique Toul,,
 DK6-TG1|DK6-TV1|DK6-TG2|DK6-TV2,ETF - CENTRALE DK6,,"high emissions, burns operating gas from steel factory"
+EMILE HUCHET 7|EMILE HUCHET 8,TE - Saint Avold Kernaman,,
 FR-GA-MORANT1,TOTALENERGIES CENTRALE ELECTRIQUE BAYET,,
 GENNEVILLIERS 1,EDF TAC de Gennevilliers,,
 PROVENCE 5,Gazel Energie Generation - Centrale de Provence,,
@@ -302,7 +303,7 @@ CTE_Rovinari_ROVI3_CA|CTE_Rovinari_ROVI4_CA|CTE_Rovinari_ROVI6_CA,SC C.E. OLTENI
 Isalnita_ISAL7_CA|Isalnita_ISAL8_CA,S Complexul Energetic Oltenia SA - SE Isalnita,,
 ,,,
 ,,,SE
-Gasturbiner Halmstad G12,,,ETS data seems to be missing
+Gasturbiner Halmstad G12,Halmstadsverket,,
 Karlshamn G1|Karlshamn G2|Karlshamn G3,id:10-563-005832-2004:138|id:10-563-005762-04:241,,
 Rya KVV,Rya Kraftvärmeverk,,
 ,,,
