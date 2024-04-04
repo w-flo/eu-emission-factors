@@ -5,17 +5,11 @@ Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "KW Boxberg Block N", eic: "11WD8BOXB1L---N8", fuel: "lignite", output: 3207327.5 }, YearlyGeneration { country: "DE", name: "KW Boxberg Block P", eic: "11WD8BOXB1L---P4", fuel: "lignite", output: 2018278.25 }]
 - [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 6222138.0, allocations: 5895.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
-- [YearlyGeneration { country: "DE", name: "KW Hastedt BHKW", eic: "11W0-0000-0494-T", fuel: "gas", output: 78185.20000000001 }]
-- [YearlyEmission { country: "DE", name: "BHKW Hastedt", id: "14310-2016:217340", emissions: 0.0, allocations: 0.0, sigma: 0.0 }, YearlyEmission { country: "DE", name: "Kraftwerk Hastedt Block 14", id: "14310-0692:1248", emissions: 0.0, allocations: 0.0, sigma: 0.0 }]
-Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "GUD_HERNE_6", eic: "11W0-0000-0245-J", fuel: "gas", output: 367417.2899999997 }]
 - [YearlyEmission { country: "DE", name: "GuD Herne", id: "14310-1975:215100", emissions: 844146.0, allocations: 1581.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "Irsching 3", eic: "11WD2IRG30000606", fuel: "gas", output: 16153.989999999998 }, YearlyGeneration { country: "DE", name: "Irsching 5", eic: "11WD2IRG5000062N", fuel: "gas", output: 1432403.019999998 }]
 - [YearlyEmission { country: "DE", name: "Kraftwerk Irsching", id: "14310-0651:1207", emissions: 617362.0, allocations: 0.0, sigma: 0.0 }]
-Possibly missing generation units for an existing manual match:
-- [YearlyGeneration { country: "DE", name: "KMW_KW2GT", eic: "11W0-0000-0196-1", fuel: "gas", output: 3.09 }, YearlyGeneration { country: "DE", name: "KMW_KW2DT", eic: "11W0-0000-0197-Z", fuel: "gas", output: 46436.020000000004 }]
-- []
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "Knapsack 1", eic: "11WD7KWKN-KW-EEN", fuel: "gas", output: 591271.6999999986 }]
 - [YearlyEmission { country: "DE", name: "Gas und Dampfturbinen Kraftanlage Knapsack", id: "14310-1410:1888", emissions: 377368.0, allocations: 0.0, sigma: 0.0 }]
