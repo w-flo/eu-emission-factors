@@ -119,7 +119,7 @@ SOTO 5,C.T. del Ciclo Combinado Soto de Ribera Grupo 5,,
 SOTO RIB 3,"Central Térmica de Soto de Ribera 1, 2 y 3",,
 SRI4,Central Térmica de Ciclo combinado Soto de Ribera4,,
 S.ROQUE 2,C. Térmica Ciclo Combinado de San Roque-(Grupo 2),,
-TAPOWER,"Tarragona Power, S.L. – CCC Tarragona Power",,
+TAPOWER,,,"ETS is 'Tarragona Power, S.L. – CCC Tarragona Power', but seems to provide heat to BASF chemical plant, so heat emissions calculation fails"
 UFARRU1|UFARRU2,"ContourGlobal La Rioja, S.L",,
 ,,,
 ,,,FI
@@ -198,6 +198,7 @@ UP_FIUMESANT_3|UP_FIUMESANT_4,Centrale termoelettrica di fiumesanto,,
 UP_ISABENERGY_2|UP_ISABENERGY_3,id:IT-A-825:561,,uses syngas -> may lead to higher emissions
 UP_LA_CASELL_1|UP_LA_CASELL_2|UP_LA_CASELL_3|UP_LA_CASELL_4,CENTRALE TERMOELETTRICA DI LA CASELLA,,
 UP_LEVANTE_3|UP_LEVANTE_4|UP_LEVANTE_5,MARGHERA LEVANTE,,
+UP_MILAZZO_1,,,"ETS is 'MILAZZO', but provides steam to refinery under ETS, so heat emissions calculation fails"
 UP_MONCALIERI_3|UP_MONCALRPW_2,Centrale Termoelettrica di Moncalieri,,
 UP_MONFALCO_1|UP_MONFALCO_2,Centrale Termoelettrica di Monfalcone,,
 UP_NAPOLIL_4,Centrale Termoelettrica Napoli,,
@@ -210,9 +211,11 @@ UP_NPWRRVENNA_9|UP_NPWRRVENNA_10|UP_NPWRRVENNA_11,EniPower S.p.A. - Stabilimento
 UP_NRGAMOLISE_1,Centrale a ciclo combinato di Termoli,,
 UP_PIETRAFIT_5,CENTRALE TERMOELETTRICA DI PIETRAFITTA,,
 UP_PMGLNDARCO_1,ACERRA - POMIGLIANO,,
+UP_PORCARI_1,,,"ETS is 'PORCARI', but provides heat/steam to paper mill under ETS, so heat emissions calculation fails"
 UP_PORTO_COR_3|UP_PORTO_COR_4,CENTRALE TERMOELETTRICA DI PORTO CORSINI,,
 UP_PRIOLO_C_1|UP_PRIOLO_C_2,CENTRALE TERMOELETTRICA DI PRIOLO GARGALLO,,
 UP_RATINO_1,Centrale Termoelettrica di San Severo,,
+UP_ROSEN_1,,,"ETS is 'Nuova Rosen', but provides heat to chemical plant under ETS, so heat emission calculation fails"
 UP_SBARBARA_3,CENTRALE TERMOELETTRICA DI SANTA BARBARA,,
 UP_SCTNPWPFRR_2|UP_SCTNPWPFRR_3,Società EniPower - Stabilimento di Ferrara,,
 UP_SMRICRICHI_1,Simeri Crichi,,
@@ -226,6 +229,7 @@ UP_TORINONORD_1,Centrale termoelettrica Torino Nord,,
 UP_TORREVALN_2|UP_TORREVALN_3|UP_TORREVALN_4,CENTRALE TERMOELETTRICA DI TORREVALDALIGA NORD,,
 UP_TRRVLDLIGA_5|UP_TRRVLDLIGA_6,Centrale Termoelettrica Torrevaldaliga,,
 UP_VADOTERM_5,Centrale Termoelettrica Vado Ligure,,
+UP_VERZUOLO_2,,,"ETS is 'VERZUOLO', seems to provide heat/steam to paper mill under ETS, so heat emission calculation fails"
 ,,,
 ,,,LT
 KTE,Kauno termofikacinė elektrinė,,
@@ -250,6 +254,7 @@ Maasstroom Energie,EP NL Rijnmond 2 C.V.,,renamed to Rijnmond 2 in 2023
 Maasvlakte 3,Uniper Centrale Maasvlakte,,
 NAM Schoonebeek,,,ETS 'NAM B.V. Warmtekrachtcentrale en Oliebehandelingsinstallatie Schoonebeek (WKC/OB I)' seems to be more than a power plant
 NLROTTETH__1,Power Plant Rotterdam B.V.,,
+Pergen 1|Pergen 2,,,"ETS is 'Pergen VOF', but provides heat to ETS industry, so heat emissions calculation fails"
 RoCa 3,Uniper Centrale RoCa,,
 Sloecentrale 10|Sloecentrale 20,Sloe Centrale B.V.,,
 Swentibold 1,,,"no recent ETS data"
@@ -297,6 +302,9 @@ Isalnita_ISAL7_CA,S Complexul Energetic Oltenia SA - SE Isalnita,,
 Gasturbiner Halmstad G12,Halmstadsverket,,
 Karlshamn G1|Karlshamn G2|Karlshamn G3,id:10-563-005832-2004:138|id:10-563-005762-04:241,,
 Rya KVV,Rya Kraftvärmeverk,plausible-emission-factor-range:250-600,"started using some renewable fuels this year"
+,,,
+,,,SI
+Plinski blok Brestanica 4|Plinski blok Brestanica 5,,,"ETS is 'TEB d.o.o. Brestanica', but modern blocks 6 & 7 are missing (<100MW)"
 ,,,
 ,,,SK
 Malženice TG1,"SPP Kompresorová stanica, Trakovice",,"that ETS account belongs to ZSE, which bought the malzenice plant recently, the location of trakovice is correct, and the emissions fit perfectly for a plant that has a name-plate efficiency of 58%"
