@@ -20,7 +20,8 @@ DE,Manual Match,IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,filtered in man
 DE,Manual Match,KW Hastedt BHKW,BHKW Hastedt,0 emissions,gas,0.0,78185.20000000001,0.0,0.0,0.0,0.0
 DE,Manual Match,KW Hastedt Block 15,Kraftwerk Hastedt Block 15,0 emissions,coal,0.38714332948726576,525542.9000000003,0.0,0.0,0.0,0.0
 DE,Manual Match,KW Lünen Block 1,Kohlekraftwerk Lünen - TKL,0 emissions,coal,0.0,2585124.9699999765,0.0,0.0,0.0,0.0
-DE,Manual Match,Knapsack 2,Knapsack II,emission factor seems implausible,gas,0.0,84491.5,0.0,0.0,272113.0,3220.5961546427748
+DE,Manual Match,Knapsack 1,,"filtered in manual_matches.csv: ETS is 'Gas und Dampfturbinen Kraftanlage Knapsack', but Entso-E data seems to be very incomplete for 2023",gas,0.0,591271.6999999986,0.0,0.0,0.0,0.0
+DE,Manual Match,Knapsack 2,,"filtered in manual_matches.csv: ETS is 'Knapsack II', but Entso-E data seems to be very incomplete for 2023",gas,0.0,84491.5,0.0,0.0,0.0,0.0
 DE,Manual Match,Kraftwerk Wahlheim GT D,,"filtered in manual_matches.csv: ETS is 'Kraftwerk Walheim', apparent typo in generation name. Coal blocks are missing from Entso-E data, this is just the oil-fired gas turbine.",oil,0.0,13953.139999999994,0.0,0.0,0.0,0.0
 DE,Manual Match,Küstenkraftwerk,Gasmotorenheizkraftwerk,emission factor seems implausible,gas,0.0,525790.2800000088,835011.935163267,99940.20852056632,143840.79147943368,273.57065535603147
 DE,Manual Match,Sued GuD1 GT2|Sued GuD1 GT3|Sued GuD2 DT60|Sued GuD2 GT61|Sued GuD2 GT62,Heizkraftwerk Süd GuD,emission factor seems implausible,gas,0.0,813403.77,1239635.4123611578,154695.0046029495,232011.9953970505,285.23594794384894

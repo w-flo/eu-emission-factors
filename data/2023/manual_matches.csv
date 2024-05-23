@@ -68,7 +68,8 @@ eic:11WD2FFW4000020J,,,"HKW West, Frankfurt - coal blocks (2 + 3) are <100MW, so
 IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,,only combined refinery + power plant ETS data is available
 Irsching 4,Kraftwerk Irsching Block 4,,
 KMW_KW2GT|KMW_KW2DT|KMW_KW3,Kraftwerk Mainz,,
-Knapsack 2,Knapsack II,,
+Knapsack 1,,,"ETS is 'Gas und Dampfturbinen Kraftanlage Knapsack', but Entso-E data seems to be very incomplete for 2023"
+Knapsack 2,,,"ETS is 'Knapsack II', but Entso-E data seems to be very incomplete for 2023"
 Kraftwerk Wahlheim GT D,,,"ETS is 'Kraftwerk Walheim', apparent typo in generation name. Coal blocks are missing from Entso-E data, this is just the oil-fired gas turbine."
 KW Boxberg Block Q|KW Boxberg Block R,Kraftwerk Boxberg Werk IV,,
 KW Hamm-Uentrop Block 10|KW Hamm-Uentrop Block 20,GuD Hamm - TGH,,
