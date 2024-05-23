@@ -25,6 +25,3 @@ Info: Detected similar automatic match in addition to manual match:
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "NL", name: "Rijnmond REC-A", eic: "49W0000000001136", fuel: "gas", output: 424077.32000000007 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-B", eic: "49W0000000001144", fuel: "gas", output: 418028.54000000015 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-X", eic: "49W0000000001152", fuel: "gas", output: 434871.1500000011 }]
 - [YearlyEmission { country: "NL", name: "EP NL Rijnmond 1 B.V.", id: "NL-200400241:189", emissions: 512489.0, allocations: 0.0, sigma: 0.0 }]
-WARNING! Degree days database does not include data for year 2023.
-Ignoring this will lead to even worse data for combined heat and power plants.
-To continue anyway, press enter.

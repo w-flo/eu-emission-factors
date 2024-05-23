@@ -282,7 +282,11 @@ fn calculate_emission_factors(year: u32, matches: &mut [Match], paths: &FilePath
 
     let mut degdays = BTreeMap::new();
     let mut csv_reader = load_csv_file(&paths.degree_days_file(), '\t');
-    let latest_year: u32 = csv_reader.headers().unwrap().get(1).unwrap().parse().unwrap();
+
+    let latest_year: u32 = {
+        let headers = csv_reader.headers().unwrap();
+        headers.get(headers.len() - 1).unwrap().parse().unwrap()
+    };
 
     if latest_year < year {
         println!("WARNING! Degree days database does not include data for year {year}.");
@@ -295,7 +299,7 @@ fn calculate_emission_factors(year: u32, matches: &mut [Match], paths: &FilePath
         let record = result.unwrap();
         let record_description = record.get(0).unwrap();
 
-        let mut record_data = record_description.split(',').skip(1);
+        let mut record_data = record_description.split(',').skip(2);
         if record_data.next().unwrap() != "HDD" {
             continue;
         }
@@ -308,8 +312,7 @@ fn calculate_emission_factors(year: u32, matches: &mut [Match], paths: &FilePath
         degdays.insert(
             country,
             (2014..=latest_year)
-                .rev()
-                .map(|year| record.get((year - 2014) as usize + 1).unwrap().parse().unwrap())
+                .map(|year| record.get((year - 1979) as usize + 1).unwrap().parse().unwrap())
                 .collect::<Vec<f64>>(),
         );
     }
