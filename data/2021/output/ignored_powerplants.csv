@@ -57,5 +57,5 @@ PL,Manual Match,Stalowa Wola Pasywna blok 7|Stalowa Wola Pasywna blok 8,TAURON W
 RO,Manual Match,CCCCBrazi_BraziST_CA|CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,"filtered in manual_matches.csv: has 5 <100MW generation units, ETS is 'Centrala de Cogenerare cu Ciclu Combinat- Brazi'",gas,0.0,1651966.862500005,0.0,0.0,0.0,0.0
 RO,Manual Match,CetGalati_GALA5_CA|CetGalati_GALA3_CA|CetGalati_GALA6_CA,SC ELECTROCENTRALE GALATI SA,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 SE,stenungsund,Stenungsund B3|Stenungsund B4,Site Stenungsund,0 generation,oil,0.9848555647850762,0.0,0.0,0.0,0.0,0.0
-SE,vaertaverket,KVV1 Värtaverket|KVV8 Värtaverket,Värtaverket,uses mixed fuels,,0.0,543105.0000000008,0.0,0.0,0.0,0.0
+SE,vartaverket,KVV1 Värtaverket|KVV8 Värtaverket,Värtaverket,uses mixed fuels,,0.0,543105.0000000008,0.0,0.0,0.0,0.0
 SI,Manual Match,Plinski blok Brestanica 4|Plinski blok Brestanica 5,,"filtered in manual_matches.csv: ETS is 'TEB d.o.o. Brestanica', but modern blocks 6 & 7 are missing (<100MW)",gas,0.0,4420.825,0.0,0.0,0.0,0.0
