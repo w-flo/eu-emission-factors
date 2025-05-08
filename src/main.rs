@@ -1,7 +1,7 @@
 use std::{
     collections::{BTreeMap, BTreeSet},
     fs::File,
-    io::{stdin, BufRead},
+    io::{BufRead, stdin},
     path::{Path, PathBuf},
 };
 
@@ -71,16 +71,16 @@ fn load_manual_matches(out: &mut Vec<Match>, paths: &FilePaths) {
 
     let mut csv_reader = load_csv_file(&paths.generation_file(), ',');
     for result in csv_reader.deserialize() {
-        let gen: YearlyGeneration = result.unwrap();
+        let csv_gen: YearlyGeneration = result.unwrap();
 
-        let mut generation = load_generation.get_mut(&gen.name);
+        let mut generation = load_generation.get_mut(&csv_gen.name);
         if generation.is_none() {
-            generation = load_generation.get_mut(&format!("eic:{}", gen.eic));
+            generation = load_generation.get_mut(&format!("eic:{}", csv_gen.eic));
         }
 
         if let Some(generation) = generation {
-            assert!(generation.is_none(), "Found two generation units: \"{}\"", gen.name);
-            *generation = Some(gen);
+            assert!(generation.is_none(), "Found two generation units: \"{}\"", csv_gen.name);
+            *generation = Some(csv_gen);
         }
     }
 
@@ -169,14 +169,14 @@ fn generate_auto_matches(matches: &mut Vec<Match>, paths: &FilePaths) {
 
     let mut csv_reader = load_csv_file(&paths.generation_file(), ',');
     for result in csv_reader.deserialize() {
-        let gen: YearlyGeneration = result.unwrap();
+        let csv_gen: YearlyGeneration = result.unwrap();
 
-        if manual_map_generation.contains(&gen.name) {
+        if manual_map_generation.contains(&csv_gen.name) {
             continue;
         }
 
-        let key = get_key(&gen.name);
-        auto_matches.entry((gen.country.to_string(), key)).or_default().0.push(gen);
+        let key = get_key(&csv_gen.name);
+        auto_matches.entry((csv_gen.country.to_string(), key)).or_default().0.push(csv_gen);
     }
 
     let mut csv_reader = load_csv_file(&paths.emissions_file(), ',');
@@ -416,11 +416,11 @@ fn generate_output(matches: &mut [Match], paths: &FilePaths) {
     // sum up all relevant generation per country and fuel (even unmatched), to calculate coverage
     let mut csv_reader = load_csv_file(&paths.generation_file(), ',');
     for result in csv_reader.deserialize() {
-        let gen: YearlyGeneration = result.unwrap();
+        let csv_gen: YearlyGeneration = result.unwrap();
 
-        if gen.fuel != "other" {
-            let key = (gen.country.to_string(), gen.fuel.to_string());
-            fuel_stats.entry(key).or_default().total_generation += gen.output;
+        if csv_gen.fuel != "other" {
+            let key = (csv_gen.country.to_string(), csv_gen.fuel.to_string());
+            fuel_stats.entry(key).or_default().total_generation += csv_gen.output;
         }
     }
 
