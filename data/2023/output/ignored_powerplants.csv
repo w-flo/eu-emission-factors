@@ -38,6 +38,8 @@ GR,Manual Match,PTOLEMAIDA5,,"filtered in manual_matches.csv: new power plant, E
 HU,Manual Match,Sajó_GT,Sajószögedi Gázturbinás erőmű,emission factor seems implausible,oil,0.0,780.2374999995944,0.0,0.0,2717.0,3482.2730258433007
 HU,lorigtae,LORIGTae,,found 0 possibly matching ETS records,oil,0.0,2100.134999999985,0.0,0.0,0.0,0.0
 IE,,EmPower Generation Limited,,seems to be a meaningless generation unit name,oil,0.0,54.91500000000002,0.0,0.0,0.0,0.0
+IE,Manual Match,Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,Ballylumford Power Station,emission factor seems implausible,gas,0.0,631379.644999998,0.0,0.0,940793.0,1490.0591228277606
+IE,Manual Match,Coolkeeragh CCGT|Coolkeeragh CGT8,Coolkeeragh ESB Ltd,emission factor seems implausible,gas,0.0,450239.0500000007,0.0,0.0,602678.0,1338.573364527131
 IE,Manual Match,North Wall CT5,ESB - North Wall TEGP,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 IE,kilroot,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,EP Kilroot Power,emission factor seems implausible,coal,0.0,182658.23500000057,0.0,0.0,638557.0,3495.9113669306944
 IE,knockmore,Knockmore Hill AGU,Knockmore Hill CHP Plant,emission factor seems implausible,gas,0.0,783.5549999999993,0.0,0.0,8749.0,11165.77649303496

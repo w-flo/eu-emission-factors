@@ -176,6 +176,8 @@ MÁ2_gép3|MÁ2_gép4|MÁ2_gép5,MVM Mátra Energia ZRt. Visontai Erőmű,,
 Sajó_GT,Sajószögedi Gázturbinás erőmű,,
 ,,,
 ,,,IE
+Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,Ballylumford Power Station,plausible-emission-factor-range:200-500,"unexpectedly high emission factor - seems to be a normal gas power plant, ENTSO-E generation data is probably off"
+Coolkeeragh CCGT|Coolkeeragh CGT8,Coolkeeragh ESB Ltd,plausible-emission-factor-range:200-500,"unexpectedly high emission factor - seems to be a normal gas power plant, ENTSO-E generation data is probably off"
 Dublin Bay Gen,Dublin Bay Power Plant,,
 Huntstown CCGT Unit 2,CCGT HPC2 (Huntstown Power Station Phase II),,
 North Wall CT5,ESB - North Wall TEGP,,
