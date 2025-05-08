@@ -32,9 +32,15 @@ pub(crate) fn yearly_emissions(year: u32, paths: &FilePaths) -> BTreeSet<String>
     let mut pp_emissions = Vec::new();
 
     for row in (header_row + 1)..sheet.height() {
-        let activity_type = get_float(sheet, row, activity_type) as i32;
-        let emissions = get_float(sheet, row, emissions_col).max(0.0);
-        let allocations = get_float(sheet, row, allocations_col).max(0.0);
+        let Some(activity_type) = get_float(sheet, row, activity_type).map(|ty| ty as i32) else {
+            continue;
+        };
+        let Some(emissions) = get_float(sheet, row, emissions_col).map(|em| em.max(0.0)) else {
+            continue;
+        };
+        let Some(allocations) = get_float(sheet, row, allocations_col).map(|al| al.max(0.0)) else {
+            continue;
+        };
 
         if activity_type == 20 || activity_type == 1 {
             let country = get_string(sheet, row, 0);
@@ -49,10 +55,14 @@ pub(crate) fn yearly_emissions(year: u32, paths: &FilePaths) -> BTreeSet<String>
 
             // Based on https://github.com/INATECH-CIG/CO2_emissions_factors_DE
             let sigma = if allocations > 0.0 {
-                let allocations_2018 = get_float(sheet, row, allocations_2018_col).max(0.0);
-                let allocations_2019 = get_float(sheet, row, allocations_2019_col).max(0.0);
+                let Some(allocations_2018) = get_float(sheet, row, allocations_2018_col) else {
+                    continue;
+                };
+                let Some(allocations_2019) = get_float(sheet, row, allocations_2019_col) else {
+                    continue;
+                };
 
-                if allocations_2018 == 0.0 || allocations_2019 == 0.0 {
+                if allocations_2018 <= 0.0 || allocations_2019 <= 0.0 {
                     0.0
                 } else {
                     let beta_2018 = 1.0 - 0.0174 * f64::from(2018 - 2013);
@@ -94,9 +104,8 @@ fn find_col(sheet: &calamine::Range<calamine::Data>, row: usize, val: &str) -> u
     (0..1000).find(|&col| sheet.get((row, col)).unwrap().get_string() == Some(val)).unwrap()
 }
 
-fn get_float(sheet: &calamine::Range<calamine::Data>, row: usize, col: usize) -> f64 {
-    // For some reason, all numbers are stored as strings in verified emissions xlsx for 2023
-    get_string(sheet, row, col).parse().unwrap_or(0.0)
+fn get_float(sheet: &calamine::Range<calamine::Data>, row: usize, col: usize) -> Option<f64> {
+    sheet.get((row, col)).unwrap().get_float()
 }
 
 fn get_string(sheet: &calamine::Range<calamine::Data>, row: usize, col: usize) -> &str {

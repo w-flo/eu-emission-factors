@@ -17,7 +17,7 @@ DE,Manual Match,Kraftwerk Wahlheim GT D,,"filtered in manual_matches.csv: ETS is
 DE,buschhaus,Buschhaus,Kraftwerk Buschhaus,0 generation,lignite,0.0,0.0,0.0,0.0,0.0,0.0
 DE,staudinger,Staudinger 4|Staudinger 5,Kraftwerk Staudinger,uses mixed fuels,,0.08694960836649773,1036037.8200000064,0.0,0.0,0.0,0.0
 DE,tiefstack,HKW Tiefstack Block 2|HKW Tiefstack GuD,Heizkraftwerk Tiefstack,uses mixed fuels,,0.0,1107730.5,0.0,0.0,0.0,0.0
-DE,weisweiler,Weisweiler F|Weisweiler G|Weisweiler H|Weisweiler E|Weisweiler VGT - BI. G|Weisweiler VGT - BI. H,Kraftwerk Weisweiler,uses mixed fuels,,0.0,9742929.259999944,0.0,0.0,0.0,0.0
+DE,weisweiler,Weisweiler F|Weisweiler G|Weisweiler H|Weisweiler E|Weisweiler VGT - BI. G|Weisweiler VGT - BI. H,Kraftwerk  Weisweiler,uses mixed fuels,,0.0,9742929.259999944,0.0,0.0,0.0,0.0
 DK,Manual Match,Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,emission factor seems implausible,gas,0.0,181754.85999999972,367145.337929445,42593.14620342191,48195.85379657809,265.16954647913224
 DK,amagervaerket,Amagervaerket 3|Amagervaerket 4,Amagerværket,uses mixed fuels,,0.0,500327.20000000054,0.0,0.0,0.0,0.0
 DK,asnaesvaerket,Asnaesvaerket 2|Asnaesvaerket 5,Asnæsværket,emission factor seems implausible,coal,0.5086467705485999,2132.000000000068,778335.499609981,1039.491763047309,6.50823695269105,3.052643974057618

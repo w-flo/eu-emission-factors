@@ -119,8 +119,8 @@ PGR5TG1|PGR5TG2|PGR5TV,"Endesa Generación, S.A. - As Pontes",,
 SAGU1|SAGU2|SAGU3,CCC. - Sagunto,,
 SBO3,CCC Sabón,,
 SOTO 5,C.T. del Ciclo Combinado Soto de Ribera Grupo 5,,
-SOTO RIB 3,"Central Térmica de Soto de Ribera 1, 2 y 3",,
-SRI4,Central Térmica de Ciclo combinado Soto de Ribera4,,
+SOTO RIB 3,"Central Térmica Soto 3",,
+SRI4,C.Térmica Ciclo Combinado Soto de Ribera Grupo4,,
 S.ROQUE 2,C. Térmica Ciclo Combinado de San Roque-(Grupo 2),,
 TAPOWER,,,"ETS is 'Tarragona Power, S.L. – CCC Tarragona Power', but seems to provide heat to BASF chemical plant, so heat emissions calculation fails"
 UFARRU1|UFARRU2,"ContourGlobal La Rioja, S.L",,
@@ -142,7 +142,7 @@ AMFARD14|AMFARD15,,,"ETS might be 'Usine de Gonfreville (UGO)', but not really s
 BLENOD 5,id:06200067:451,,
 BOUCHAIN 7,EDF Cycle Combiné Gaz de Bouchain,,
 Croix-de-Metz,TOTALENERGIES - Centrale Electrique Toul,,
-DK6-TG1|DK6-TV1|DK6-TG2|DK6-TV2,ETF - CENTRALE DK6,,"high emissions, burns operating gas from steel factory"
+DK6-TG1|DK6-TV1|DK6-TG2|DK6-TV2,CENTRALE DK6,,"high emissions, burns operating gas from steel factory"
 EMILE HUCHET 7|EMILE HUCHET 8,TE - Saint Avold Kernaman,,
 FR-GA-MORANT1,TOTALENERGIES CENTRALE ELECTRIQUE BAYET,,
 GENNEVILLIERS 1,EDF TAC de Gennevilliers,,
@@ -160,7 +160,7 @@ KARDIA1|KARDIA2|KARDIA3|KARDIA4,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΗ
 KOMOTINI,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΚΟΜΟΤΗΝΗΣ,,
 LAVRIO4|LAVRIO5,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΛΑΥΡΙΟΥ,,
 MEGALOPOLI3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ Α ΜΟΝΑΔΑ ΙΙΙ,,
-MEGALOPOLI4,ΑΗΣ ΜΕΓΑΛΟΠΟΛΗΣ ΜΟΝΑΔΑ 4 κωδ 1-40,,
+MEGALOPOLI4,ΑΗΣ ΜΕΓΑΛΟΠΟΛΗΣ ΜΟΝΑΔΑ 4  κωδ 1-40,,
 MEGALOPOLI_V,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ - ΜΟΝΑΔΑ V,,
 MELITI,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΛΙΤΗΣ,,
 ,,,
@@ -181,7 +181,7 @@ Sealrock 3|Sealrock 4,Aughinish Alumina,,
 ,,,
 ,,,IT
 UP_AZOTATI_5,MARGHERA AZOTATI,,
-UP_BRNDSSUDCE_1|UP_BRNDSSUDCE_3|UP_BRNDSSUDCE_4,CENTRALE TERMOELETTRICA DI BRINDISI SUD,,
+UP_BRNDSSUDCE_1|UP_BRNDSSUDCE_3|UP_BRNDSSUDCE_4,CENTRALE TERMOELETTRICA DI  BRINDISI SUD,,
 UP_BUSSI_1,BUSSI SUL TIRINO,,
 UP_CCGTPRILIA_1,Centrale a ciclo combinato di Aprilia,,
 UP_CETSERVOLA_1,GEFS - CENTRALE ELETTRICA DI TRIESTE,,
@@ -195,11 +195,12 @@ UP_CTTAMARETE_1,Cte Tamarete,,
 UP_DUINO_1,,,"only combined paper mill + power plant ETS data available"
 UP_FIUMESANT_3|UP_FIUMESANT_4,Centrale termoelettrica di fiumesanto,,
 UP_ISABENERGY_2|UP_ISABENERGY_3,id:IT-A-825:561,,uses syngas -> may lead to higher emissions
-UP_LA_CASELL_1|UP_LA_CASELL_2|UP_LA_CASELL_3|UP_LA_CASELL_4,CENTRALE TERMOELETTRICA DI LA CASELLA,,
+UP_LA_CASELL_1|UP_LA_CASELL_2|UP_LA_CASELL_3|UP_LA_CASELL_4,CENTRALE TERMOELETTRICA DI  LA CASELLA,,
 UP_LEVANTE_3|UP_LEVANTE_4,MARGHERA LEVANTE,,
 UP_MILAZZO_1,,,"ETS is 'MILAZZO', but provides steam to refinery under ETS, so heat emissions calculation fails"
 UP_MONCALIERI_3|UP_MONCALRPW_2,Centrale Termoelettrica di Moncalieri,,
 UP_MONFALCO_1|UP_MONFALCO_2,Centrale Termoelettrica di Monfalcone,,
+UP_MONTALTO_1|UP_MONTALTO_2|UP_MONTALTO_3,CENTRALE TERMOELETTRICA DI MONTALTO DI CASTRO,,
 UP_NAPOLIL_4,Centrale Termoelettrica Napoli,,
 UP_NCTLVRNFRR_1,Centrale Termoelettrica di Livorno Ferraris,,
 UP_NPWRBRNDSI_8|UP_NPWRBRNDSI_9|UP_NPWRBRNDSI_10,EniPower S.p.A. - Stabilimento di Brindisi,,
@@ -212,7 +213,7 @@ UP_PIETRAFIT_5,CENTRALE TERMOELETTRICA DI PIETRAFITTA,,
 UP_PMGLNDARCO_1,ACERRA - POMIGLIANO,,
 UP_PNRGIAIGCC_1,Centrale Termoelettrica api di Falconara Marittima,,
 UP_PORCARI_1,,,"ETS is 'PORCARI', but provides heat/steam to paper mill under ETS, so heat emissions calculation fails"
-UP_PORTO_COR_3|UP_PORTO_COR_4,CENTRALE TERMOELETTRICA DI PORTO CORSINI,,
+UP_PORTO_COR_3|UP_PORTO_COR_4,CENTRALE TERMOELETTRICA DI  PORTO CORSINI,,
 UP_PRIOLO_C_1|UP_PRIOLO_C_2,CENTRALE TERMOELETTRICA DI PRIOLO GARGALLO,,
 UP_RATINO_1,Centrale Termoelettrica di San Severo,,
 UP_ROSEN_1,,,"ETS is 'Nuova Rosen', but provides heat to chemical plant under ETS, so heat emission calculation fails"
@@ -250,13 +251,13 @@ Eemshaven A|Eemshaven B,RWE Eemshaven Centrale,,
 Eems 7|Eems 6|Eems 5|Eems 4|Eems 3|Eems 20,ENGIE Eemscentrale,,
 Elsta 1,,,"no recent ETS data: 'Dow Benelux B.V. BKG 10'"
 FLEVO 4|FLEVO 5,ENGIE Maximacentrale,,
-Maasstroom Energie,EP NL Rijnmond 2 C.V.,,renamed to Rijnmond 2 in 2023
+Maasstroom Energie,EP NL Rijnmond 2 B.V.,,renamed to Rijnmond 2 in 2023
 Maasvlakte 3,Uniper Centrale Maasvlakte,,
 NAM Schoonebeek,,,ETS 'NAM B.V. Warmtekrachtcentrale en Oliebehandelingsinstallatie Schoonebeek (WKC/OB I)' seems to be more than a power plant
 NLROTTETH__1,Power Plant Rotterdam B.V.,,
 Pergen 1|Pergen 2,,,"ETS is 'Pergen VOF', but provides heat to ETS industry, so heat emissions calculation fails"
 RoCa 3,Uniper Centrale RoCa,,
-Sloecentrale 10|Sloecentrale 20,Sloe Centrale B.V.,,
+Sloecentrale 10|Sloecentrale 20,EP NL Sloe Centrale B.V.,,
 Swentibold 1,,,"no recent ETS data"
 Velsen 24|Velsen 25,Vattenfall Power Velsen,,"burns blast furnace gas, so high emissions are expected"
 ,,,
@@ -299,7 +300,7 @@ CetGalati_GALA5_CA|CetGalati_GALA3_CA|CetGalati_GALA6_CA,SC ELECTROCENTRALE GALA
 CET_MINT2_CA|CET_MINT3_CA|CET_MINT4_CA|CET_MINT5_CA|CET_MINT6_CA,Electrocentrale Deva,,
 CteTurceni_TURC3_CA|CteTurceni_TURC4_CA|CteTurceni_TURC5_CA|CteTurceni_TURC7_CA,S Complexul Energetic Oltenia SA-SE Turceni,,
 CTE_Rovinari_ROVI3_CA|CTE_Rovinari_ROVI4_CA|CTE_Rovinari_ROVI6_CA,SC C.E. OLTENIA SA - SUC. ELECTROCENTRALE ROVINARI,,
-Isalnita_ISAL7_CA|Isalnita_ISAL8_CA,S Complexul Energetic Oltenia SA - SE Isalnita,,
+Isalnita_ISAL7_CA|Isalnita_ISAL8_CA,S Complexul Energetic Oltenia SA -  SE Isalnita,,
 ,,,
 ,,,SE
 Gasturbiner Halmstad G12,Halmstadsverket,,
@@ -311,4 +312,6 @@ Plinski blok Brestanica 4|Plinski blok Brestanica 5,,,"ETS is 'TEB d.o.o. Bresta
 ,,,
 ,,,SK
 Malženice TG1,"SPP Kompresorová stanica, Trakovice",,"that ETS account belongs to ZSE, which bought the malzenice plant recently, the location of trakovice is correct, and the emissions fit perfectly for a plant that has a name-plate efficiency of 58%"
+Nováky TG1|Nováky TG2|Nováky TG3,"Elektrárne Nováky, závod Zemianske Kostoľany",,
 PPC Bratislava TG1,id:103-049-2012:204,,"burns oil, gas and diesel, but Entso-E lists it as gas only -> higher than expected emissions"
+Vojany TG5|Vojany TG6,"Slovenské elektrárne a.s., závod Elektrárne Vojany",,

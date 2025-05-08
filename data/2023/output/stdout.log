@@ -3,7 +3,7 @@ Info: Detected similar automatic match in addition to manual match:
 - [YearlyEmission { country: "AT", name: "Verbund FHKW Mellach", id: "EEW009:99", emissions: 6168.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "KW Boxberg Block N", eic: "11WD8BOXB1L---N8", fuel: "lignite", output: 3207327.5 }, YearlyGeneration { country: "DE", name: "KW Boxberg Block P", eic: "11WD8BOXB1L---P4", fuel: "lignite", output: 2018278.25 }]
-- [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 6222138.0, allocations: 5895.0, sigma: 0.0 }]
+- [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 6222138.0, allocations: 6031.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "Irsching 3", eic: "11WD2IRG30000606", fuel: "gas", output: 16153.989999999998 }, YearlyGeneration { country: "DE", name: "Irsching 5", eic: "11WD2IRG5000062N", fuel: "gas", output: 1432403.019999998 }]
 - [YearlyEmission { country: "DE", name: "Kraftwerk Irsching", id: "14310-0651:1207", emissions: 617362.0, allocations: 0.0, sigma: 0.0 }]
