@@ -14,8 +14,8 @@ DE,Manual Match,GuD-Block,,"filtered in manual_matches.csv: provides heat for lo
 DE,Manual Match,HKW West Block 4,,"filtered in manual_matches.csv: HKW West, Frankfurt - coal blocks (2 + 3) are <100MW, so missing from ENTSO-E. ETS is id:14310-0512:1078",gas,0.0,65342.11000000004,0.0,0.0,0.0,0.0
 DE,Manual Match,IKS Schwedt SE1 Block 1|IKS Schwedt SE2 Block 2,,filtered in manual_matches.csv: only combined refinery + power plant ETS data is available,oil,0.0,1373945.0,0.0,0.0,0.0,0.0
 DE,Manual Match,Kraftwerk Wahlheim GT D,,"filtered in manual_matches.csv: ETS is 'Kraftwerk Walheim', apparent typo in generation name. Coal blocks are missing from Entso-E data, this is just the oil-fired gas turbine.",oil,0.0,30978.03000000001,0.0,0.0,0.0,0.0
-DE,Manual Match,Küstenkraftwerk,Gasmotorenheizkraftwerk,emission factor seems implausible,gas,0.0,601505.1500000338,797954.0315424912,101779.19583480383,175364.80416519617,291.5433129129257
-DE,Manual Match,Sued GuD1 GT2|Sued GuD1 GT3|Sued GuD2 DT60|Sued GuD2 GT61|Sued GuD2 GT62,Heizkraftwerk Süd GuD,emission factor seems implausible,gas,0.0,1062326.9600000042,1493136.4992765507,192708.16451374657,313386.83548625343,295.00035985743244
+DE,Manual Match,Küstenkraftwerk,Gasmotorenheizkraftwerk,emission factor seems implausible,gas,0.0,601505.1500000338,798067.7616881984,101788.37431890333,175355.6256810967,291.52805371838764
+DE,Manual Match,Sued GuD1 GT2|Sued GuD1 GT3|Sued GuD2 DT60|Sued GuD2 GT61|Sued GuD2 GT62,Heizkraftwerk Süd GuD,emission factor seems implausible,gas,0.0,1062326.9600000042,1493349.311825784,192725.17132808734,313369.82867191266,294.98435083668727
 DE,tiefstack,HKW Tiefstack Block 2|HKW Tiefstack GuD,Heizkraftwerk Tiefstack,uses mixed fuels,,0.0,1160192.5,0.0,0.0,0.0,0.0
 DK,Manual Match,Silkeborgvaerket,Silkeborg Varme A/S - Kraftvarmeværket,emission factor seems implausible,gas,0.0,186768.78999999957,326664.4513989718,38387.04652449829,50165.95347550171,268.59923157130174
 DK,asnaesvaerket,Asnaesvaerket 2|Asnaesvaerket 5,Asnæsværket,0 generation,coal,0.5086467705485999,0.0,0.0,0.0,0.0,0.0
@@ -27,7 +27,7 @@ FI,Manual Match,Kristiina B1|Kristiina B2,Kristiinan voimalaitos,0 generation,co
 FI,Manual Match,Kymijärvi B1,Kymijärven voimalaitos,0 generation,coal,0.024782211949189246,0.0,0.0,0.0,0.0,0.0
 FI,Manual Match,Suomenoja 2 GT,,filtered in manual_matches.csv: missing two <100MW generation units,gas,0.0,99851.96000000104,0.0,0.0,0.0,0.0
 FI,Manual Match,Tahkoluoto B1,Tahkoluodon voimalaitos,0 generation,coal,0.0,0.0,0.0,0.0,0.0,0.0
-FI,Manual Match,Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,emission factor seems implausible,gas,0.0,173822.96000000573,2305758.1372621423,111432.79977924378,19201.20022075622,110.46411947394974
+FI,Manual Match,Vuosaari VuB4|Vuosaari VuB5|Vuosaari VuB6,Vuosaaren A-voimalaitos|Vuosaaren B-voimalaitos,emission factor seems implausible,gas,0.0,173822.96000000573,2306002.8347422285,111434.53782668828,19199.462173311724,110.45412052188671
 FI,vaskiluoto,Vaskiluoto B3,Vaskiluoto 3-voimalaitos,0 generation,oil,0.0,0.0,0.0,0.0,0.0,0.0
 FR,Manual Match,AMFARD14|AMFARD15,,"filtered in manual_matches.csv: ETS might be 'Usine de Gonfreville (UGO)', but not really sure - seems to be part of a chemical plant, provides lots of heat",gas,0.0,1226593.0,0.0,0.0,0.0,0.0
 FR,Manual Match,FR_LANDIVISIAUGU,CEB - CENTRALE ELECTRIQUE DE LANDIVISIAU,emission factor seems implausible,gas,0.0,364688.0,0.0,0.0,888866.0,2437.332733734041
@@ -47,7 +47,7 @@ IT,Manual Match,UP_PORCARI_1,,"filtered in manual_matches.csv: ETS is 'PORCARI',
 IT,Manual Match,UP_ROSEN_1,,"filtered in manual_matches.csv: ETS is 'Nuova Rosen', but provides heat to chemical plant under ETS, so heat emission calculation fails",gas,0.0,1321452.0,0.0,0.0,0.0,0.0
 IT,Manual Match,UP_TNRSDLMNSP_1,,"filtered in manual_matches.csv: Tenaris Dalmine steel plant, no ETS data for power plant only",gas,0.0,65999.0,0.0,0.0,0.0,0.0
 IT,Manual Match,UP_VERZUOLO_2,,"filtered in manual_matches.csv: ETS is 'VERZUOLO', seems to provide heat/steam to paper mill under ETS, so heat emission calculation fails",gas,0.0,90579.0,0.0,0.0,0.0,0.0
-LT,Manual Match,KTE,Kauno termofikacinė elektrinė,emission factor seems implausible,gas,0.0,673.0,5422.958756658814,462.73874088181043,131.26125911818957,195.0390180062252
+LT,Manual Match,KTE,Kauno termofikacinė elektrinė,emission factor seems implausible,gas,0.0,673.0,5422.283256454575,462.72600241061417,131.27399758938583,195.0579458980473
 LT,Manual Match,VE3 TG-1|VE3 TG-2,Termofikacinė elektrinė Nr. 3 (E-3),0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 NL,Manual Match,Delesto 2,,filtered in manual_matches.csv: seems to provide steam to industry that takes part in ETS -> can't calculate emissions correctly. ETS is 'Delesto B.V.',gas,0.0,198947.94,0.0,0.0,0.0,0.0
 NL,Manual Match,Elsta 1,,filtered in manual_matches.csv: no recent ETS data: 'Dow Benelux B.V. BKG 10',gas,0.0,1372641.1099999985,0.0,0.0,0.0,0.0
