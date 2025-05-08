@@ -54,7 +54,6 @@ NO,Manual Match,Evm G1 Therm,,filtered in manual_matches.csv: no ETS data,gas,0.
 PL,Manual Match,EC Rzeszów B1,Oddział Elektrociepłownia Rzeszów I,emission factor seems implausible,gas,0.036817929635672306,480084.05000000075,90367.18233084172,3073.559044986067,37322.44095501393,77.74147246719376
 PL,Manual Match,Polaniec B1|Polaniec B2|Polaniec B3|Polaniec B4|Polaniec B5|Polaniec B6|Polaniec B7|Polaniec 2 blok 9,Instalacja do spalania paliw,uses mixed fuels,,0.9201326499949203,7905474.099999996,0.0,0.0,0.0,0.0
 PL,Manual Match,Stalowa Wola Pasywna blok 7|Stalowa Wola Pasywna blok 8,TAURON Wytwarzanie SA O. Elektrownia Stalowa Wola,emission factor seems implausible,coal,0.0,1072.0,300938.9208282035,1473.9985032660725,12.001496733927524,11.195426057768213
-RO,Manual Match,CCCCBrazi_BraziST_CA|CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,"filtered in manual_matches.csv: has 5 <100MW generation units, ETS is 'Centrala de Cogenerare cu Ciclu Combinat- Brazi'",gas,0.0,1651966.862500005,0.0,0.0,0.0,0.0
 RO,Manual Match,CetGalati_GALA5_CA|CetGalati_GALA3_CA|CetGalati_GALA6_CA,SC ELECTROCENTRALE GALATI SA,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 SE,stenungsund,Stenungsund B3|Stenungsund B4,Site Stenungsund,0 generation,oil,0.9848555647850762,0.0,0.0,0.0,0.0,0.0
 SE,vartaverket,KVV1 Värtaverket|KVV8 Värtaverket,Värtaverket,uses mixed fuels,,0.0,543105.0000000008,0.0,0.0,0.0,0.0

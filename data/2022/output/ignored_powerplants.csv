@@ -58,7 +58,6 @@ NL,bergum,Bergum 10|Bergum 20,ENGIE Centrale Bergum,0 generation,gas,0.0,0.0,0.0
 NO,Manual Match,Evm G1 Therm,,filtered in manual_matches.csv: no ETS data,gas,0.0,200350.72999999975,0.0,0.0,0.0,0.0
 PL,Manual Match,Plock B01,ELEKTROCIEPŁOWNIA,0 emissions,gas,0.0,2960412.3900000155,0.0,0.0,0.0,0.0
 PL,Manual Match,Polaniec B1|Polaniec B2|Polaniec B3|Polaniec B4|Polaniec B5|Polaniec B6|Polaniec B7|Polaniec 2 blok 9,Instalacja do spalania paliw,uses mixed fuels,,0.9201326499949204,8501140.140000004,0.0,0.0,0.0,0.0
-RO,Manual Match,CCCCBrazi_BraziST_CA|CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,"filtered in manual_matches.csv: has 5 <100MW generation units, ETS is 'Centrala de Cogenerare cu Ciclu Combinat- Brazi'",gas,0.0,3171863.2299999874,0.0,0.0,0.0,0.0
 RO,Manual Match,CetGalati_GALA5_CA|CetGalati_GALA3_CA,SC ELECTROCENTRALE GALATI SA,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
 SE,vartaverket,KVV1 Värtaverket|KVV8 Värtaverket,Värtaverket,uses mixed fuels,,0.0,594130.800000002,0.0,0.0,0.0,0.0
 SI,Manual Match,Plinski blok Brestanica 4|Plinski blok Brestanica 5,,"filtered in manual_matches.csv: ETS is 'TEB d.o.o. Brestanica', but modern blocks 6 & 7 are missing (<100MW)",gas,0.0,14954.600000000006,0.0,0.0,0.0,0.0

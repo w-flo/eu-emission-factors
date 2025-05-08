@@ -295,7 +295,8 @@ T.Outeiro C.C. - G1|T.Outeiro C.C. - G2|T.Outeiro C.C. - G3,Central de Ciclo Com
 ,,,RO
 BucurestiSud_BUCS3_CA|BucurestiSud_BUCS4_CA,SC Electr.centrt.Bucuresti-CET Bucuresti Sud,,"data seems off, 1500g CO2/kWh"
 BucurestiVest_BUCV3+4_CA,CTE Bucuresti Vest,,"data seems off, 600g CO2/kWh"
-CCCCBrazi_BraziST_CA|CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,,,"has 5 <100MW generation units, ETS is 'Centrala de Cogenerare cu Ciclu Combinat- Brazi'"
+CCCCBrazi_BraziST_CA,Centrala de Cogenerare cu Ciclu Combinat- Brazi,,
+CETBrazi__BRAZ5_CA|CETBrazi__BRAZ6_CA,TERMO PLOIESTI SRL,,
 CetCraiova2_CRAI1_CA|CetCraiova2_CRAI2_CA,SOCIETATEA ELECTROCENTRALE CRAIOVA SA,,
 CetGalati_GALA5_CA|CetGalati_GALA3_CA,SC ELECTROCENTRALE GALATI SA,,
 CteTurceni_TURC4_CA|CteTurceni_TURC5_CA|CteTurceni_TURC7_CA,S Complexul Energetic Oltenia SA-SE Turceni,,
