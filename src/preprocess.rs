@@ -116,22 +116,29 @@ fn get_string(sheet: &calamine::Range<calamine::Data>, row: usize, col: usize) -
 struct UnitGenerationHour {
     #[serde(rename = "ResolutionCode")]
     resolution_code: String,
-    #[serde(rename = "PowerSystemResourceName")]
+    #[serde(rename = "AreaTypeCode")]
+    area_type_code: String,
+    #[serde(rename = "GenerationUnitName", alias = "PowerSystemResourceName")]
     name: String,
     #[serde(rename = "MapCode")]
     map_code: String,
-    #[serde(rename = "GenerationUnitEIC")]
+    #[serde(rename = "GenerationUnitCode", alias = "GenerationUnitEIC")]
     eic: String,
-    #[serde(rename = "ProductionType")]
+    #[serde(rename = "GenerationUnitType", alias = "ProductionType")]
     unit_type: String,
-    #[serde(rename = "ActualGenerationOutput")]
+    #[serde(rename = "ActualGenerationOutput(MW)", alias = "ActualGenerationOutput")]
     output: Option<f64>,
-    #[serde(rename = "ActualConsumption")]
+    #[serde(rename = "ActualConsumption(MW)", alias = "ActualConsumption")]
     consumption: Option<f64>,
 }
 
+struct UnitData {
+    generation: YearlyGeneration,
+    area_type_code: String,
+}
+
 pub(crate) fn yearly_generation(countries: &BTreeSet<String>, paths: &FilePaths) {
-    let mut units = BTreeMap::<String, YearlyGeneration>::new();
+    let mut units = BTreeMap::<String, UnitData>::new();
 
     for month in 1..=12 {
         let zip_name = paths.entso_e_zip_file(month);
@@ -169,22 +176,33 @@ pub(crate) fn yearly_generation(countries: &BTreeSet<String>, paths: &FilePaths)
                 code => panic!("unknown resolution code {code}"),
             };
 
-            let unit = units.entry(generation_hour.eic).or_insert_with(|| YearlyGeneration {
-                country,
-                name: generation_hour.name,
-                eic: String::new(),
-                fuel,
-                output: 0.0,
+            let unit = units.entry(generation_hour.eic).or_insert_with(|| {
+                let generation = YearlyGeneration {
+                    country,
+                    name: generation_hour.name,
+                    eic: String::new(),
+                    fuel,
+                    output: 0.0,
+                };
+
+                UnitData { generation, area_type_code: generation_hour.area_type_code.clone() }
             });
-            unit.output += generation_hour.output.unwrap_or_default() / divide_by;
-            unit.output -= generation_hour.consumption.unwrap_or_default() / divide_by;
+
+            if unit.area_type_code != generation_hour.area_type_code {
+                // Some units have duplicate entries, e.g. one for the bidding zone and one for the control area
+                // Skip those duplicates and only process the first type that we encounter
+                continue;
+            }
+
+            unit.generation.output += generation_hour.output.unwrap_or_default() / divide_by;
+            unit.generation.output -= generation_hour.consumption.unwrap_or_default() / divide_by;
         }
     }
 
     let mut csv_writer = Writer::from_path(paths.generation_file()).unwrap();
     for (unit_eic, mut unit) in units {
-        unit.eic = unit_eic;
-        csv_writer.serialize(unit).unwrap();
+        unit.generation.eic = unit_eic;
+        csv_writer.serialize(unit.generation).unwrap();
     }
     csv_writer.flush().unwrap();
 }

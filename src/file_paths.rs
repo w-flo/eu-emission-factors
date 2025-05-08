@@ -26,8 +26,23 @@ impl FilePaths {
     }
 
     pub(crate) fn entso_e_zip_file(&self, month: u8) -> PathBuf {
-        let zip_path = format!("entsoe_unit_generation/{}_{month:02}_ActualGenerationOutputPerGenerationUnit_16.1.A.zip", self.year);
-        self.year_dir.join(zip_path)
+        let year = self.year;
+        let mut path = self.year_dir.join("entsoe_unit_generation");
+
+        let new =
+            format!("{year}_{month:02}_ActualGenerationOutputPerGenerationUnit_16.1.A_r2.1.zip");
+        path.push(new);
+        if path.exists() {
+            return path;
+        }
+
+        let old = format!("{year}_{month:02}_ActualGenerationOutputPerGenerationUnit_16.1.A.zip");
+        path.set_file_name(old);
+        if path.exists() {
+            return path;
+        }
+
+        panic!("File not found: {path:?}");
     }
 
     pub(crate) fn generation_file(&self) -> PathBuf {
