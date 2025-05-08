@@ -150,16 +150,16 @@ Saint_Avold_7|Saint_Avold_8,TE - Saint Avold Kernaman,,Renamed from EMILE HUCHET
 SPEM CCG,Etablissement de Montoir-de-Bretagne,,
 ,,,
 ,,,GR
-AG_DIMITRIOS1|AGIOS DIMITRIOS II|AGIOS DIMITRIOS III|AGIOS DIMITRIOS IV|AGIOS DIMITRIOS V,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΗΣ ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ,,
+AG_DIMITRIOS1|AG_DIMITRIOS2|AG_DIMITRIOS4|AG_DIMITRIOS5|AG_DIMITRIOS3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΗΣ ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ,,
 AG_NIKOLAOS2,,,"new powerplant, ETS apparently still missing"
-ALIVERI5,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΛΙΒΕΡΙΟΥ,,
+ALIVERI V,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΛΙΒΕΡΙΟΥ,,
 ALOUMINIO,ALUMINIUM OF GREECE,,
 ELPEDISON_THESS,ΣΤΑΘΜΟΣ ΠΑΡΑΓΩΓΗΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΘΕΣ/ΚΗΣ,,
 ELPEDISON_THISVI,ΣΤΑΘΜΟΣ ΠΑΡΑΓΩΓΗΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΘΙΣΒΗΣ,,
 HERON_CC|HERON1|HERON2|HERON3,ΣΤΑΘ. ΗΛΕΚΤΡΟΠΑΡΑΓΩΓΗΣ ΣΥΝΔΥΑΣΜΕΝΟΥ ΚΥΚΛΟΥ ΗΡΩΝ ΙΙ,,
 KOMOTINI,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΚΟΜΟΤΗΝΗΣ,,
-LAVRIO4|LAVRIO5,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΛΑΥΡΙΟΥ,,
-MEGALOPOLI3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ Α ΜΟΝΑΔΑ ΙΙΙ,,
+LAVRIO IV G_3GTST|LAVRIO V,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΛΑΥΡΙΟΥ,,
+MEGALOPOLI III,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ Α ΜΟΝΑΔΑ ΙΙΙ,,
 MEGALOPOLI IV,ΑΗΣ ΜΕΓΑΛΟΠΟΛΗΣ ΜΟΝΑΔΑ 4  κωδ 1-40,,
 MEGALOPOLI V_2GTST,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ - ΜΟΝΑΔΑ V,,
 MELITI,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΛΙΤΗΣ,,
@@ -237,7 +237,6 @@ UP_VERZUOLO_2,,,"ETS is 'VERZUOLO', seems to provide heat/steam to paper mill un
 ,,,LT
 KTE,Kauno termofikacinė elektrinė,,
 LE TG-7|LE TG-8|LE TG-9,Lietuvos elektrinė,,
-VE3 TG-1|VE3 TG-2,Termofikacinė elektrinė Nr. 3 (E-3),,
 ,,,
 ,,,LV
 "Block-1, Gas Turbine, RTEC2|Block-1, Steam Turbine, RTEC2|Block-2, Gas Turbine, RTEC2|Block-2, Steam Turbine, RTEC2",id:LV-RIT-R-II-SEG-07:7,,

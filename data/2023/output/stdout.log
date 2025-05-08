@@ -5,23 +5,23 @@ Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "DE", name: "KW Boxberg Block N", eic: "11WD8BOXB1L---N8", fuel: "lignite", output: 3207327.5 }, YearlyGeneration { country: "DE", name: "KW Boxberg Block P", eic: "11WD8BOXB1L---P4", fuel: "lignite", output: 2018278.25 }]
 - [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 6222138.0, allocations: 6031.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
-- [YearlyGeneration { country: "DE", name: "Irsching 3", eic: "11WD2IRG30000606", fuel: "gas", output: 16153.989999999998 }, YearlyGeneration { country: "DE", name: "Irsching 5", eic: "11WD2IRG5000062N", fuel: "gas", output: 1432403.019999998 }]
+- [YearlyGeneration { country: "DE", name: "Irsching 3", eic: "11WD2IRG30000606", fuel: "gas", output: 16153.989999999998 }, YearlyGeneration { country: "DE", name: "Irsching 5", eic: "11WD2IRG5000062N", fuel: "gas", output: 1432403.019999997 }]
 - [YearlyEmission { country: "DE", name: "Kraftwerk Irsching", id: "14310-0651:1207", emissions: 617362.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
-- [YearlyGeneration { country: "ES", name: "ACECA4", eic: "18WACE4-12345-C3", fuel: "gas", output: 307691.69999999955 }]
+- [YearlyGeneration { country: "ES", name: "ACECA4", eic: "18WACE4-12345-C3", fuel: "gas", output: 307691.6999999998 }]
 - [YearlyEmission { country: "ES", name: "CCC-Aceca", id: "ES074501000404:325", emissions: 130390.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
-- [YearlyGeneration { country: "ES", name: "BESOS 4", eic: "18WBES4-12345-CY", fuel: "gas", output: 1140945.6000000015 }]
+- [YearlyGeneration { country: "ES", name: "BESOS 4", eic: "18WBES4-12345-CY", fuel: "gas", output: 1140945.6000000024 }]
 - [YearlyEmission { country: "ES", name: "CCC - Besos", id: "ES080801000516:432", emissions: 443796.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
-- [YearlyGeneration { country: "ES", name: "S.ROQUE 1", eic: "18WSROQ1-1234-CJ", fuel: "gas", output: 362578.10000000085 }]
+- [YearlyGeneration { country: "ES", name: "S.ROQUE 1", eic: "18WSROQ1-1234-CJ", fuel: "gas", output: 362578.1000000008 }]
 - [YearlyEmission { country: "ES", name: "CCC.- San Roque 1", id: "ES011101000050:48", emissions: 169297.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
 - [YearlyGeneration { country: "FI", name: "Vaskiluoto B3", eic: "44W-T-LV-1000078", fuel: "oil", output: 0.0 }]
 - [YearlyEmission { country: "FI", name: "Vaskiluoto 3-voimalaitos", id: "FI-60831104:4", emissions: 0.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
-- [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1283189.079999997 }]
+- [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1283189.0799999977 }]
 - [YearlyEmission { country: "IE", name: "Huntstown Power Station", id: "IE-GHG080:62", emissions: 662549.0, allocations: 0.0, sigma: 0.0 }]
 Info: Detected similar automatic match in addition to manual match:
-- [YearlyGeneration { country: "NL", name: "Rijnmond REC-A", eic: "49W0000000001136", fuel: "gas", output: 424077.32000000007 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-B", eic: "49W0000000001144", fuel: "gas", output: 418028.54000000015 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-X", eic: "49W0000000001152", fuel: "gas", output: 434871.1500000011 }]
+- [YearlyGeneration { country: "NL", name: "Rijnmond REC-A", eic: "49W0000000001136", fuel: "gas", output: 426452.27 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-B", eic: "49W0000000001144", fuel: "gas", output: 420377.1099999999 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-X", eic: "49W0000000001152", fuel: "gas", output: 437472.72000000114 }]
 - [YearlyEmission { country: "NL", name: "EP NL Rijnmond 1 B.V.", id: "NL-200400241:189", emissions: 512489.0, allocations: 0.0, sigma: 0.0 }]

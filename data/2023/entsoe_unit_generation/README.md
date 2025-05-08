@@ -1,1 +1,1 @@
-This directory should contain 12 zip files "2023_[month]_ActualGenerationOutputPerGenerationUnit_16.1.A.zip" from Entso-E. These can be downloaded from Entso-E sftp server after registration, from the server's "zip" directory.
+This directory should contain 12 zip files "2023_[month]_ActualGenerationOutputPerGenerationUnit_16.1.A_r2.1.zip" from Entso-E. These can be downloaded from Entso-E sftp server after registration, from the server's "zip" directory.
