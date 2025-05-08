@@ -37,12 +37,10 @@ GR,Manual Match,MEGALOPOLI III,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕ�
 GR,Manual Match,PTOLEMAIDA5,,"filtered in manual_matches.csv: new power plant, ETS data apparently still missing",lignite,0.0,1712368.0,0.0,0.0,0.0,0.0
 HU,Manual Match,Sajó_GT,Sajószögedi Gázturbinás erőmű,emission factor seems implausible,oil,0.0,780.2374999995944,0.0,0.0,2717.0,3482.2730258433007
 HU,lorigtae,LORIGTae,,found 0 possibly matching ETS records,oil,0.0,2100.134999999985,0.0,0.0,0.0,0.0
+IE,,EmPower Generation Limited,,seems to be a meaningless generation unit name,oil,0.0,54.91500000000002,0.0,0.0,0.0,0.0
 IE,Manual Match,North Wall CT5,ESB - North Wall TEGP,0 generation,gas,0.0,0.0,0.0,0.0,0.0,0.0
-IE,ballylumford,Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,,found 0 possibly matching ETS records,gas,0.0,631379.644999998,0.0,0.0,0.0,0.0
-IE,coolkeeragh,Coolkeeragh CCGT|Coolkeeragh CGT8,,found 0 possibly matching ETS records,gas,0.0,450239.0500000007,0.0,0.0,0.0,0.0
-IE,kilroot,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,,found 0 possibly matching ETS records,coal,0.0,182658.23500000057,0.0,0.0,0.0,0.0
-IE,knockmore,Knockmore Hill AGU,,found 0 possibly matching ETS records,gas,0.0,783.5549999999993,0.0,0.0,0.0,0.0
-IE,limited,EmPower Generation Limited,Eli Lilly Kinsale Limited|Genzyme Ireland Limited|Hovione Limited|Minch Malt Limited|South Dublin Routing 4 No. 2 Limited|Waspar Limited,found 6 possibly matching ETS records,oil,0.9842277985212795,54.91500000000002,0.0,0.0,0.0,0.0
+IE,kilroot,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,EP Kilroot Power,emission factor seems implausible,coal,0.0,182658.23500000057,0.0,0.0,638557.0,3495.9113669306944
+IE,knockmore,Knockmore Hill AGU,Knockmore Hill CHP Plant,emission factor seems implausible,gas,0.0,783.5549999999993,0.0,0.0,8749.0,11165.77649303496
 IE,solutions,iPower Solutions ltd,,found 0 possibly matching ETS records,oil,0.0,321.8649999999983,0.0,0.0,0.0,0.0
 IE,tarbert,Tarbert Unit 3|Tarbert Unit 4|Tarbert Unit 1|Tarbert Unit 2,Tarbert Generating Station,emission factor seems implausible,oil,0.0,506.37000000000006,0.0,0.0,2360.0,4660.623654639888
 IT,Manual Match,UP_DUINO_1,,filtered in manual_matches.csv: only combined paper mill + power plant ETS data available,gas,0.0,11888.0,0.0,0.0,0.0,0.0

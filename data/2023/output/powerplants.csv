@@ -181,6 +181,8 @@ IE,Manual Match,Dublin Bay Gen,Dublin Bay Power Plant,gas,0.0,1521667.5500000024
 IE,Manual Match,Huntstown CCGT Unit 2,CCGT HPC2 (Huntstown Power Station Phase II),gas,0.0,1232467.43,0.0,0.0,621809.0,504.52367735186317
 IE,Manual Match,Sealrock 3|Sealrock 4,Aughinish Alumina,gas,1.0,898557.5199999951,3881138.848911369,663968.7765703747,351363.2234296253,391.03030758634924
 IE,aghada,Aghada Unit 2|Aghada CT1|Aghada CT2|Aghada CT4,Aghada CCGT,gas,0.0,1818461.669999997,0.0,0.0,793055.0,436.11312412210555
+IE,ballylumford,Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,Ballylumford Power Station,gas,0.0,631379.644999998,0.0,0.0,940793.0,1490.0591228277606
+IE,coolkeeragh,Coolkeeragh CCGT|Coolkeeragh CGT8,Coolkeeragh ESB Ltd,gas,0.0,450239.0500000007,0.0,0.0,602678.0,1338.573364527131
 IE,cushaling,Cushaling Unit 1|Cushaling Unit 2,Cushaling Power Limited,gas,0.0,1666.57,0.0,0.0,1364.0,818.4474699532573
 IE,huntstown,Huntstown CCGT Unit 1,Huntstown Power Station,gas,0.0,1283189.0799999977,0.0,0.0,662549.0,516.3299862246344
 IE,island,Great Island Unit 4,Great Island Generating Station,gas,0.0,1513638.9799999942,0.0,0.0,728695.0,481.4192879731485

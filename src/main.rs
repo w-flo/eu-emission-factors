@@ -189,7 +189,12 @@ fn generate_auto_matches(matches: &mut Vec<Match>, paths: &FilePaths) {
 
         let key = get_key(&em.name);
         if !key.is_empty() {
-            auto_matches.entry((em.country.to_string(), key)).and_modify(|m| m.1.push(em));
+            // some power stations use the "XI" country code in emissions data and "IE" in generation data
+            let country = match em.country.as_str() {
+                "XI" => "IE",
+                other => other,
+            };
+            auto_matches.entry((country.to_string(), key)).and_modify(|m| m.1.push(em));
         }
     }
 
@@ -227,6 +232,7 @@ fn get_key(name: &str) -> String {
         "combinado", "electrica", "espana", "endesa", "generacion", "grupo", "iberdrola", // ES
         "voimalaitos", "lämpökeskus", // FI
         "electrique", // FR
+        "limited", // GB
         "gazturbinas", "eromu", // HU
         "centrale", "energi", "termoelettrica", "turbogas", "combinato", "cogenera", // IT
         "vattenfall", // NL
