@@ -191,7 +191,7 @@ fn generate_auto_matches(matches: &mut Vec<Match>, paths: &FilePaths) {
         if !key.is_empty() {
             // some power stations use the "XI" country code in emissions data and "IE" in generation data
             let country = match em.country.as_str() {
-                "XI" => "IE",
+                "XI" | "NIE" => "IE",
                 other => other,
             };
             auto_matches.entry((country.to_string(), key)).and_modify(|m| m.1.push(em));

@@ -151,7 +151,12 @@ pub(crate) fn yearly_generation(countries: &BTreeSet<String>, paths: &FilePaths)
         for result in csv_reader.deserialize() {
             let generation_hour: UnitGenerationHour = result.unwrap();
 
-            let country = generation_hour.map_code.split('_').next().unwrap().to_string();
+            let mut country = generation_hour.map_code.split('_').next().unwrap().to_string();
+            if country == "NIE" || country == "XI" {
+                // Power plants in Northern Ireland seem to vary between XI, IE or NIE in different data sources
+                // Set all of them to "IE" for matching to succeed
+                country = "IE".to_string();
+            }
             if !countries.contains(&country) {
                 continue;
             }
