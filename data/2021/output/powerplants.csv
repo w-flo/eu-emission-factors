@@ -193,13 +193,9 @@ IE,Manual Match,Dublin Bay Gen,Dublin Bay Power Plant,gas,0.0,1719491.3099999938
 IE,Manual Match,Huntstown CCGT Unit 2,CCGT HPC2 (Huntstown Power Station Phase II),gas,0.0,446600.8700000003,0.0,0.0,190841.0,427.3189167768524
 IE,Manual Match,Sealrock 3|Sealrock 4,Aughinish Alumina,gas,1.0,1194201.6699999983,3881133.8123308267,696231.1796066934,489659.82039330655,410.031096668377
 IE,aghada,Aghada Unit 2|Aghada CT1|Aghada CT2|Aghada CT4,Aghada CCGT,gas,0.0,2244967.8850000007,0.0,0.0,807993.0,359.91294369896957
-IE,ballylumford,Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,Ballylumford Power Station,gas,0.0,1052621.4949999992,0.0,0.0,1018583.0,967.6631199707743
-IE,coolkeeragh,Coolkeeragh CCGT|Coolkeeragh CGT8,Coolkeeragh ESB Ltd,gas,0.0,866110.9150000028,0.0,0.0,709846.0,819.5786332977892
 IE,cushaling,Cushaling Unit 1|Cushaling Unit 2,Cushaling Power Limited,gas,0.0,20926.790000000005,0.0,0.0,18449.0,881.5972253747467
 IE,huntstown,Huntstown CCGT Unit 1,Huntstown Power Station,gas,0.0,1852393.7899999935,0.0,0.0,775793.0,418.8056579481422
 IE,island,Great Island Unit 4,Great Island Generating Station,gas,0.0,2634476.0199999926,0.0,0.0,993092.0,376.95996944394386
-IE,kilroot,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,EP Kilroot Power,coal,0.0,536604.5099999997,0.0,0.0,1362596.0,2539.2928583473904
-IE,knockmore,Knockmore Hill AGU,Knockmore Hill CHP Plant,gas,0.0,5359.115000000104,0.0,0.0,11838.0,2208.9468130465143
 IE,moneypoint,Moneypoint Unit 1|Moneypoint Unit 2|Moneypoint Unit 3,ESB Moneypoint Generating Station,coal,0.0,3155783.310000012,0.0,0.0,3228756.0,1023.123479286031
 IE,poolbeg,Poolbeg A|Poolbeg B,ESB Poolbeg Generating Station,gas,0.0,1495371.4000000074,0.0,0.0,659638.0,441.1198448759932
 IE,rhode,Rhode Unit 1|Rhode Unit 2,Rhode Generating Station,oil,0.0,53106.13499999995,0.0,0.0,47816.0,900.3856145810657

@@ -32,6 +32,10 @@ FI,vaskiluoto,Vaskiluoto B3,Vaskiluoto 3-voimalaitos,0 generation,oil,0.0,0.0,0.
 FR,Manual Match,AMFARD14|AMFARD15,,"filtered in manual_matches.csv: ETS might be 'Usine de Gonfreville (UGO)', but not really sure - seems to be part of a chemical plant, provides lots of heat",gas,0.0,1225747.0,0.0,0.0,0.0,0.0
 GR,Manual Match,AMYNDEO1|AMYNDEO2,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΑΜΥΝΤΑΙΟ ΦΛΩΡΙΝΑΣ,0 generation,lignite,0.0,0.0,0.0,0.0,0.0,0.0
 IE,,EmPower Generation Limited,,seems to be a meaningless generation unit name,oil,0.0,106.53000000000037,0.0,0.0,0.0,0.0
+IE,Manual Match,Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,Ballylumford Power Station,emission factor seems implausible,gas,0.0,1052621.4949999992,0.0,0.0,1018583.0,967.6631199707743
+IE,Manual Match,Coolkeeragh CCGT|Coolkeeragh CGT8,Coolkeeragh ESB Ltd,emission factor seems implausible,gas,0.0,866110.9150000028,0.0,0.0,709846.0,819.5786332977892
+IE,Manual Match,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,EP Kilroot Power,emission factor seems implausible,coal,0.0,536604.5099999997,0.0,0.0,1362596.0,2539.2928583473904
+IE,Manual Match,Knockmore Hill AGU,Knockmore Hill CHP Plant,emission factor seems implausible,gas,0.0,5359.115000000104,0.0,0.0,11838.0,2208.9468130465143
 IE,north,North Wall CT5,ESB - North Wall TEGP|ESB North Wall Generating Station,found 2 possibly matching ETS records,gas,0.0,0.0,0.0,0.0,0.0,0.0
 IE,solutions,iPower Solutions ltd,,found 0 possibly matching ETS records,oil,0.0,782.6249999999429,0.0,0.0,0.0,0.0
 IT,Manual Match,UP_DUINO_1,,filtered in manual_matches.csv: only combined paper mill + power plant ETS data available,gas,0.0,28873.0,0.0,0.0,0.0,0.0

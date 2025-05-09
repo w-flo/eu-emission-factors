@@ -37,8 +37,10 @@ GR,Manual Match,KARDIA1|KARDIA2|KARDIA3|KARDIA4,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ Σ�
 GR,Manual Match,MEGALOPOLI3,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ Α ΜΟΝΑΔΑ ΙΙΙ,0 generation,lignite,0.0016718844037371177,0.0,0.0,0.0,0.0,0.0
 GR,Manual Match,PTOLEMAIDA5,,"filtered in manual_matches.csv: new power plant, ETS data apparently still missing",lignite,0.0,84530.0,0.0,0.0,0.0,0.0
 IE,,EmPower Generation Limited,,seems to be a meaningless generation unit name,oil,0.0,49.984999999999985,0.0,0.0,0.0,0.0
-IE,kilroot,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,EP Kilroot Power,emission factor seems implausible,coal,0.0,270899.1450000005,0.0,0.0,1117547.0,4125.324943347451
-IE,knockmore,Knockmore Hill AGU,Knockmore Hill CHP Plant,emission factor seems implausible,gas,0.0,1560.595000000007,0.0,0.0,9632.0,6172.004908384274
+IE,Manual Match,Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,Ballylumford Power Station,emission factor seems implausible,gas,0.0,689773.404999999,0.0,0.0,1100128.0,1594.9121726431329
+IE,Manual Match,Coolkeeragh CCGT|Coolkeeragh CGT8,Coolkeeragh ESB Ltd,emission factor seems implausible,gas,0.0,611100.2249999994,0.0,0.0,761594.0,1246.2669278185926
+IE,Manual Match,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,EP Kilroot Power,emission factor seems implausible,coal,0.0,270899.1450000005,0.0,0.0,1117547.0,4125.324943347451
+IE,Manual Match,Knockmore Hill AGU,Knockmore Hill CHP Plant,emission factor seems implausible,gas,0.0,1560.595000000007,0.0,0.0,9632.0,6172.004908384274
 IE,north,North Wall CT5,ESB - North Wall TEGP|ESB North Wall Generating Station,found 2 possibly matching ETS records,gas,0.0,0.0,0.0,0.0,0.0,0.0
 IE,solutions,iPower Solutions ltd,,found 0 possibly matching ETS records,oil,0.0,4061.1199999999985,0.0,0.0,0.0,0.0
 IT,Manual Match,UP_DUINO_1,,filtered in manual_matches.csv: only combined paper mill + power plant ETS data available,gas,0.0,49799.0,0.0,0.0,0.0,0.0

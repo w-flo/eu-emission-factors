@@ -37,6 +37,10 @@ FR,Manual Match,AMFARD14|AMFARD15,,"filtered in manual_matches.csv: ETS might be
 FR,Manual Match,PROVENCE 5,Gazel Energie Generation - Centrale de Provence,uses mixed fuels,,0.0,-404.0,0.0,0.0,0.0,0.0
 HU,Manual Match,Sajó_GT,Sajószögedi Gázturbinás erőmű,emission factor seems implausible,oil,0.0,173.11250000001203,0.0,0.0,574.0,3315.762870965182
 IE,,EmPower Generation Limited,,seems to be a meaningless generation unit name,oil,0.0,74.46000000000001,0.0,0.0,0.0,0.0
+IE,Manual Match,Ballylumford CCGT Unit 31|Ballylumford CCGT Unit 32|Ballylumford Unit 10|Ballylumford GT1|Ballylumford GT2,Ballylumford Power Station,emission factor seems implausible,gas,0.0,1013013.0650000003,0.0,0.0,935693.0,923.6731808587283
+IE,Manual Match,Coolkeeragh CCGT|Coolkeeragh CGT8,Coolkeeragh ESB Ltd,emission factor seems implausible,gas,0.0,845919.2100000039,0.0,0.0,682857.0,807.2366627068285
+IE,Manual Match,Kilroot K1|Kilroot K2|Kilroot KGT3|Kilroot KGT4|Kilroot KGT1|Kilroot KGT2,EP Kilroot Power,emission factor seems implausible,coal,0.0,477873.80000000057,0.0,0.0,1171047.0,2450.536103883491
+IE,Manual Match,Knockmore Hill AGU,Knockmore Hill CHP Plant,emission factor seems implausible,gas,0.0004070390263249252,2632.474999999976,27600.22363736928,11650.985197559416,2540.0148024405844,964.8770842802335
 IE,north,North Wall CT5,ESB - North Wall TEGP|ESB North Wall Generating Station,found 2 possibly matching ETS records,gas,0.0,0.0,0.0,0.0,0.0,0.0
 IE,solutions,iPower Solutions ltd,,found 0 possibly matching ETS records,oil,0.0,4255.675000000068,0.0,0.0,0.0,0.0
 IT,Manual Match,UP_DUINO_1,,filtered in manual_matches.csv: only combined paper mill + power plant ETS data available,gas,0.0,24376.0,0.0,0.0,0.0,0.0
