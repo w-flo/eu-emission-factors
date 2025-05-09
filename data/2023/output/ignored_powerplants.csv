@@ -34,7 +34,7 @@ FR,havre,HAVRE 4,EDF Centrale Le Havre,0 emissions,coal,0.0,7085.0,0.0,0.0,0.0,0
 FR,stouen,CPCU-StOuen-GP,,found 0 possibly matching ETS records,gas,0.0,106728.0,0.0,0.0,0.0,0.0
 GR,Manual Match,AG_NIKOLAOS2,,"filtered in manual_matches.csv: new powerplant, ETS apparently still missing",gas,0.0,1380947.0,0.0,0.0,0.0,0.0
 GR,Manual Match,MEGALOPOLI III,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΜΕΓΑΛΟΠΟΛΗΣ Α ΜΟΝΑΔΑ ΙΙΙ,0 generation,lignite,0.0,0.0,0.0,0.0,0.0,0.0
-GR,Manual Match,PTOLEMAIDA5,,"filtered in manual_matches.csv: new power plant, ETS data apparently still missing",lignite,0.0,1712368.0,0.0,0.0,0.0,0.0
+GR,Manual Match,PTOLEMAIDA5,ΑΤΜΟΗΛΕΚΤΡΙΚΟΣ ΣΤΑΘΜΟΣ ΠΤΟΛΕΜΑΪΔΑΣ V,0 emissions,lignite,0.0,1712368.0,0.0,0.0,0.0,0.0
 HU,Manual Match,Sajó_GT,Sajószögedi Gázturbinás erőmű,emission factor seems implausible,oil,0.0,780.2374999995944,0.0,0.0,2717.0,3482.2730258433007
 HU,lorigtae,LORIGTae,,found 0 possibly matching ETS records,oil,0.0,2100.134999999985,0.0,0.0,0.0,0.0
 IE,,EmPower Generation Limited,,seems to be a meaningless generation unit name,oil,0.0,54.91500000000002,0.0,0.0,0.0,0.0
