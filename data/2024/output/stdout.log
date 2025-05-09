@@ -1,0 +1,27 @@
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "AT", name: "FHKW Mellach", eic: "14W-WML-M1-----G", fuel: "gas", output: 1164.4200000000003 }]
+- [YearlyEmission { country: "AT", name: "Verbund FHKW Mellach", id: "EEW009:99", emissions: 4608.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "DE", name: "KW Boxberg Block N", eic: "11WD8BOXB1L---N8", fuel: "lignite", output: 2395916.75 }, YearlyGeneration { country: "DE", name: "KW Boxberg Block P", eic: "11WD8BOXB1L---P4", fuel: "lignite", output: 2513206.75 }]
+- [YearlyEmission { country: "DE", name: "Kraftwerk Boxberg Werk III", id: "14310-0915:1453", emissions: 5803167.0, allocations: 5419.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "DE", name: "Irsching 5", eic: "11WD2IRG5000062N", fuel: "gas", output: 1949406.089999992 }]
+- [YearlyEmission { country: "DE", name: "Kraftwerk Irsching", id: "14310-0651:1207", emissions: 732357.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "ES", name: "ACECA4", eic: "18WACE4-12345-C3", fuel: "gas", output: 839195.5999999997 }]
+- [YearlyEmission { country: "ES", name: "CCC-Aceca", id: "ES074501000404:325", emissions: 367287.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "ES", name: "BESOS 4", eic: "18WBES4-12345-CY", fuel: "gas", output: 662881.0999999981 }]
+- [YearlyEmission { country: "ES", name: "CCC - Besos", id: "ES080801000516:432", emissions: 276708.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "ES", name: "S.ROQUE 1", eic: "18WSROQ1-1234-CJ", fuel: "gas", output: 58840.40000000001 }]
+- [YearlyEmission { country: "ES", name: "CCC.- San Roque 1", id: "ES011101000050:48", emissions: 30053.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "FI", name: "Vaskiluoto B3", eic: "44W-T-LV-1000078", fuel: "oil", output: 0.0 }]
+- [YearlyEmission { country: "FI", name: "Vaskiluoto 3-voimalaitos", id: "FI-60831104:4", emissions: 0.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "IE", name: "Huntstown CCGT Unit 1", eic: "47W000000000095C", fuel: "gas", output: 1552848.6449999816 }]
+- [YearlyEmission { country: "IE", name: "Huntstown Power Station", id: "IE-GHG080:62", emissions: 722980.0, allocations: 0.0, sigma: 0.0 }]
+Info: Detected similar automatic match in addition to manual match:
+- [YearlyGeneration { country: "NL", name: "Rijnmond REC-A", eic: "49W0000000001136", fuel: "gas", output: 209919.53999999998 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-B", eic: "49W0000000001144", fuel: "gas", output: 238212.4599999996 }, YearlyGeneration { country: "NL", name: "Rijnmond REC-X", eic: "49W0000000001152", fuel: "gas", output: 225569.73000000007 }]
+- [YearlyEmission { country: "NL", name: "EP NL Rijnmond 1 B.V.", id: "NL-200400241:189", emissions: 261571.0, allocations: 0.0, sigma: 0.0 }]
