@@ -84,6 +84,5 @@ PL,karolin,Karolin B2|Karolin B3,Elektrociepłownia II Karolin,0 emissions,coal,
 PL,turow,Turów B01|Turów B02|Turów B03|Turów B04|Turów B05|Turów B06|Turów B11,PGE GiEK S.A. Oddział Elektrownia Turów,0 emissions,lignite,0.3368331238782946,7894540.592499948,0.0,0.0,0.0,0.0
 PL,wroclaw,Wroclaw Bl2|Wroclaw Bl3,ELEKTROCIEPŁOWNIA WROCŁAW,0 emissions,coal,0.0,522595.6175000032,0.0,0.0,0.0,0.0
 PL,wrotkow,EC Wrotków B1,Oddział Elektrociepłownia Lublin-Wrotków,0 emissions,gas,0.014791281255216343,625123.5149999965,0.0,0.0,0.0,0.0
-SE,Manual Match,Rya KVV,Rya Kraftvärmeverk,emission factor seems implausible,gas,0.0,197744.61000002464,166915.95267004822,18186.962677442385,49248.03732255762,249.04869630859463
 SI,Manual Match,Plinski blok Brestanica 4|Plinski blok Brestanica 5,,"filtered in manual_matches.csv: ETS is 'TEB d.o.o. Brestanica', but modern blocks 6 & 7 are missing (<100MW)",gas,0.0,15588.537500000002,0.0,0.0,0.0,0.0
 SK,Manual Match,Nováky TG1|Nováky TG2|Nováky TG3,"Elektrárne Nováky, závod Zemianske Kostoľany",0 generation,lignite,0.0,0.0,0.0,0.0,0.0,0.0
